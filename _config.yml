@@ -1,0 +1,40 @@
+title: "PRIDE Study Lab Manual"
+description: "Lab manual and resources for the PRIDE Study team"
+baseurl: "/lab_manual"
+url: "https://pride-study.github.io"
+
+# Theme
+theme: jekyll-theme-minimal
+# Or use a different theme like:
+# remote_theme: pages-themes/minimal@v0.2.0
+
+# Plugins
+plugins:
+  - jekyll-relative-links
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: About
+    url: /pages/about
+  - title: Onboarding
+    url: /pages/onboarding
+  - title: Resources
+    url: /pages/resources
+  - title: Projects
+    url: /pages/projects
+
+# Collections (optional, for organizing content)
+collections:
+  protocols:
+    output: true
+    permalink: /protocols/:name
+
+# Exclude files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
