@@ -7,6 +7,19 @@ title: Home
 
 Welcome to the PRIDE Study lab manual. This site contains resources, protocols, and guidelines for our research team.
 
+
+<div class="search-box">
+  <input type="text" id="search" placeholder="Search..." onkeyup="searchContent()">
+</div>
+
+## Lab Manual
+
+<ol class="toc">
+{% for item in site.data.toc %}
+  <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+{% endfor %}
+</ol>
+
 ## Quick Links
 
 - [Onboarding Guide]({{ site.baseurl }}/pages/onboarding)

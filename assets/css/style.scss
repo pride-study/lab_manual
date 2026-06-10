@@ -33,8 +33,67 @@ main {
     padding: 20px;
 }
 
-h1, h2, h3 {
+h1 {
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  color: #24292e;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #0366d6;
+}
+
+h3 {
     color: #24292e;
+}
+
+/* Search box styling */
+.search-box {
+  margin: 20px 0;
+}
+
+#search {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+}
+
+#search:focus {
+  outline: none;
+  border-color: #0366d6;
+}
+
+/* Table of contents styling */
+.toc {
+  list-style-position: outside;
+  padding-left: 20px;
+  line-height: 2;
+}
+
+.toc li {
+  margin: 8px 0;
+  font-size: 18px;
+}
+
+.toc a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.toc a:hover {
+  text-decoration: underline;
 }
 
 /* Checklist styling */
