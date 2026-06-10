@@ -4,24 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} - {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.scss">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
 </head>
 <body>
     <div class="wrapper">
-        <header>
-            <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
-            <p>{{ site.description }}</p>
+        <!-- Left Sidebar -->
+        <aside class="sidebar">
+            <header>
+                <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+                <p class="description">{{ site.description }}</p>
+            </header>
+            
+            <!-- Search box in sidebar -->
+            <div class="search-box">
+                <input type="text" id="search" placeholder="Search..." onkeyup="searchContent()">
+            </div>
+            
+            <!-- Navigation -->
             {% include navigation.html %}
-        </header>
+            
+            <!-- Footer in sidebar -->
+            <footer class="sidebar-footer">
+                {% include footer.html %}
+            </footer>
+        </aside>
         
-        <main>
+        <!-- Main Content Area -->
+        <main class="main-content">
             {{ content }}
         </main>
-        
-        <footer>
-            {% include footer.html %}
-        </footer>
     </div>
+    
     <script src="{{ site.baseurl }}/assets/js/search.js"></script>
 </body>
 </html>
