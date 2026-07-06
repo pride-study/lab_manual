@@ -1,6 +1,8 @@
 project:
   type: book
 
+engine: markdown
+
 book:
   title: "The PRIDE Study Lab Manual"
   chapters:
