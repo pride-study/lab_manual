@@ -1,1 +1,1 @@
-# lab_manual
+Lab manual for The PRIDE Study lab members at Stanford University.

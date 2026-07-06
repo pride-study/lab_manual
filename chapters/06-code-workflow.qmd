@@ -1,0 +1,116 @@
+# Code Workflow for Reproducible Research {#sec-code-workflow}
+
+Coding is difficult! There are many ways to code something that will achieve the same goal. Our general philosophy at PRIDE is based on a general set of coding principles and workflows that are broadly applicable across coding languages and integrated development environments. We recognize the need for transparent and reproducible science while ensuring that we protect the data privacy of LGBTQIA+ participants at The PRIDE Study. We also note that this is a living document: we can update as the team and coding philosophy change over time.
+
+We focus on providing general recommendations and scripts that allow individual members at PRIDE to code how they prefer while maintaining reproducibility, ease of collaboration, and data privacy of participants. We do not tell our team members which language to use or, for the post part, which tools to use within a given language.
+
+Currently, our team can support workflows in R with more limited support for Python. Thus, we offer guidance specifically in R. We’ll add relevant recommendations if other languages become more prominent in the team
+
+We use R as our primary programming language. It has excellent tools for statistical analysis, visualization, and reproducible research. Here is a brief summary of our approach.
+
+## Code Style and Standard
+
+Consistency of code style is essential for collaboration. It speeds up the reading of code and reduces debates on what code should look like. We prefer the [Tidyverse style](https://style.tidyverse.org/index.html) for coding. This can be automatically implemented using the styler package. Despite the name, this guide also applies to non-Tidyverse code, including base R and data.table.
+
+```{r}
+#| eval: false
+# style all R-related files in the current directory
+styler::style_dir()
+```
+
+Note that you should run styler interactively in the console, not in one of your R scripts.
+
+Styler also has a helpful add-in for RStudio to let you style the active file, a code selection, etc.
+
+## Naming Things
+
+Naming things is an aspect of code style, but it merits a little extra attention because it is important to readability. In general, strive to make your code self-documenting, e.g., someone else should be able to read your code and understand what it’s doing without talking to you about it. Self-documenting is easier said than done, so code clearness is an essential type of feedback in code review.
+
+Use descriptive names for objects in code, e.g., `model_results` rather than `out` or `kangaroo_data` rather than `k`. However, do note prefer overly long names (*e.g.*, three words is better than four or five). It’s OK to use terse names where the meaning is generally understood, like `n` for counts or `i` and `j` for loop counters.
+
+Similarly, for functions, describe what the function is doing, preferably in verb format, e.g., `simulate_data()` is better than `f()` or `data_simulator()`.
+
+We generally prefer `snake_case` over `camelCase` and other naming style conventions unless otherwise appropriate.
+
+## Project Organization
+
+In general, we recommend using descriptive folder and file names, *e.g.*, `R/` or `scripts/` to organize source code and `output` or `reports` to organize research outputs. You should also include guidance on the organization of your project in a `README` (see section 6.4.1 for more details about `README` files).
+
+For example, an R project might look like this:
+
+> `code/`
+>
+> `data/`
+>
+> `output/`
+>
+> `README.md`
+>
+> `my_project.Rproj`
+
+The Kiang Lab also has a [template](https://kianglab.github.io/labmanual/projectstructure.html) for setting new research projects, which includes an appendix that explains the reasoning behind the template.
+
+### File Paths
+
+We recommend to not hardcode direct file paths that only exists on your computer:
+
+```{r}
+#| eval: false
+raw_df = readr::read_csv("/users/ntran/Downloads/data.csv")
+```
+
+Our preference is to use file paths that are relative to the root directory of your project. In RStudio, a root directory is automatically established when you create a new R project. This project-based workflow enables seamless collaboration by allowing team members to access all project data using relative file paths, eliminating the need for hardcoded absolute paths that vary across different users' systems.
+
+For example, data.csv should be in your project directory (`my_project.Rproj`), which you can access with relative paths. In addition, we recommend using the here package help specify the relative paths:
+
+```{r}
+#| eval: false
+raw_df = readr::read_csv(here::here("data", "data.csv"))
+```
+
+The here package can let you refer to files and folders from the root directory of your project no matter where the code exists. For instance, here can be helpful when you have a report in a `reports/` folder but want to refer to a data file in the `data/` folder. Instead of backtracking `../data/data.csv`, you can write here`("data", "data.csv")`.
+
+### Documentation
+
+Good documentation practice is essential to ensure that anyone who reviews or inherits your code can quickly understand its purpose and functionality. The primary mode of documenting code is using comments to explain why and not what the code is doing.
+
+The "what" should be evident from well-written, clear code itself; if not, your code may be overly complex. The "why" is often more critical because it provides the reasoning for your analytical decisions, methodological choices, and problem-solving approach. This context cannot always be inferred from the code alone.
+
+```{r}
+#| eval: false
+# Group together trans and gender diverse identities to avoid small cell sizes
+clean_df <- raw_df |>
+    dplyr::mutate(
+      gi_bin = dplyr::if_else(gender == "cisgender", 0, 1)
+    )
+```
+
+In R, the `#` is used to provide inline comments. We generally recommend putting inline comments go on their own line above the code they describe, not at the end of a line.
+
+### README
+
+A `README` file serves as the primary documentation for your project, explaining its purpose, structure, and how to use it. We recommend including a `README` file for all research projects to provide collaborators and future users with essential context and guidance. In general, recommended `README` content should include at least:
+
+-   Project overview and objectives
+-   Data requirements and sources
+-   Details on installations and setup of any package or version dependencies
+
+### Git and GitHub
+
+Our team uses Git and GitHub for managing and hosting version-controlled repositories for our research projects. This effort is led and managed by our biostatistician, Nguyen Tran. For external collaborators whose analyses by our internal team and are interested in making the code publicly available, please contact [Nguyen Tran](mailto:nktran@stanford.edu) to initiate this process as outlined in @sec-code-data-share.
+
+Our team does not require new members or trainees to have prior experience with Git and GitHub. We recognize that these tools may be unfamiliar to many researchers. We encourage developing these skills over time as version control is essential for reproducible research and effective collaboration. Trainees who are interested in learning more about Git and GitHub, Nguyen Tran is available to guide you through the process. This includes helping with creating your personal GitHub account, setting up repositories, learning essential git commands, understanding our project documentation standards, and eventually transferring your work to The PRIDE Study GitHub.
+
+There are also several other labs at Stanford provide introductory guidance to Git and GitHub such as the [Kiang Lab](https://kianglab.github.io/labmanual/projectstructure.html#projectstructure-git) and [Stanford Health Policy and Data Science](https://stanfordhpds.github.io/lab_manual/chapters/08-code-workflow-agreements.html#sec-git-github).
+
+### Code Review
+
+Code review is a collaborative practice where team members examine each other's code before it is finalized or published. This process is essential for ensuring the quality and reproducibility of our research.
+
+Trainees or external collaborators working with PRIDE Study data who would like code review should contact Nguyen Tran in advance to arrange this. Our preference is that code reviews are done through GitHub using a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests). However, for those not familiar with GitHub, please share your code and documentation through the institution's secure file sharing platform (Box or Dropbox), along with a brief description of your analysis objectives and any specific areas where you would like feedback.
+
+## Script Templates for Reproducible Analysis 
+
+To support reproducible research practices, we have developed a collection of script templates in R for handling common and repetitive tasks that are prone to human error.
+
+To view scripts aimed at supporting reproducible workflows in R, please check out our repository on [GitHub](https://github.com/pride-study/scripts_for_reproducible_PRIDE_analysis.git). Please note that these templates may be updated over time based on feedback from team members.
