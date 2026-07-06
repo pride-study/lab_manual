@@ -4,7 +4,6 @@ project:
 book:
   title: "The PRIDE Study Lab Manual"
   chapters:
-    - index.qmd
     - chapters/01-culture.qmd
     - chapters/02-policies.qmd
     - chapters/03-publications.qmd
