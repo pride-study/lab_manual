@@ -2,17 +2,20 @@ project:
   type: book
 
 book:
-  title: "The PRIDE Study Lab Manual"
+  title: "The PRIDE Study"
   chapters:
-    - chapters/01-culture.qmd
-    - chapters/02-policies.qmd
-    - chapters/03-publications.qmd
-    - chapters/04-data.qmd
-    - chapters/05-study-design.qmd
-    - chapters/06-code-workflow.qmd
-    - chapters/07-lgbtqia-considerations.qmd
-    - chapters/08-contact.qmd
-
+    - index.qmd
+    - part: ""
+      chapters:
+        - chapters/01-culture.qmd
+        - chapters/02-policies.qmd
+        - chapters/03-publications.qmd
+        - chapters/04-data.qmd
+        - chapters/05-study-design.qmd
+        - chapters/06-code-workflow.qmd
+        - chapters/07-lgbtqia-considerations.qmd
+        - chapters/08-contact.qmd
+        
 bibliography: references.bib
 
 format:
