@@ -13,20 +13,12 @@ book:
     - chapters/06-code-workflow.qmd
     - chapters/07-lgbtqia-considerations.qmd
     - chapters/08-contact.qmd
-  sidebar:
-    style: "docked"
-    contents:
-      - chapters/01-culture.qmd
-      - chapters/02-policies.qmd
-      - chapters/03-publications.qmd
-      - chapters/04-data.qmd
-      - chapters/05-study-design.qmd
-      - chapters/06-code-workflow.qmd
-      - chapters/07-lgbtqia-considerations.qmd
-      - chapters/08-contact.qmd
 
 bibliography: references.bib
 
 format:
   html:
     theme: cosmo
+    search:
+      exclude:
+        - "index.*"
