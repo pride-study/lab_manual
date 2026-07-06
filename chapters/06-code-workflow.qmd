@@ -12,8 +12,7 @@ We use R as our primary programming language. It has excellent tools for statist
 
 Consistency of code style is essential for collaboration. It speeds up the reading of code and reduces debates on what code should look like. We prefer the [Tidyverse style](https://style.tidyverse.org/index.html) for coding. This can be automatically implemented using the styler package. Despite the name, this guide also applies to non-Tidyverse code, including base R and data.table.
 
-```{r}
-#| eval: false
+```r
 # style all R-related files in the current directory
 styler::style_dir()
 ```
@@ -54,8 +53,7 @@ The Kiang Lab also has a [template](https://kianglab.github.io/labmanual/project
 
 We recommend to not hardcode direct file paths that only exists on your computer:
 
-```{r}
-#| eval: false
+```r
 raw_df = readr::read_csv("/users/ntran/Downloads/data.csv")
 ```
 
@@ -63,8 +61,7 @@ Our preference is to use file paths that are relative to the root directory of y
 
 For example, data.csv should be in your project directory (`my_project.Rproj`), which you can access with relative paths. In addition, we recommend using the here package help specify the relative paths:
 
-```{r}
-#| eval: false
+```r
 raw_df = readr::read_csv(here::here("data", "data.csv"))
 ```
 
@@ -76,8 +73,7 @@ Good documentation practice is essential to ensure that anyone who reviews or in
 
 The "what" should be evident from well-written, clear code itself; if not, your code may be overly complex. The "why" is often more critical because it provides the reasoning for your analytical decisions, methodological choices, and problem-solving approach. This context cannot always be inferred from the code alone.
 
-```{r}
-#| eval: false
+```r
 # Group together trans and gender diverse identities to avoid small cell sizes
 clean_df <- raw_df |>
     dplyr::mutate(
