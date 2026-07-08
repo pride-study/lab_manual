@@ -27,7 +27,7 @@ All manuscripts using data from The PRIDE Study are required to be reviewed by T
 
 PRIDE requires at least 2 weeks to review manuscripts prior to initial journal submission and at least 1 week to review revisions requested by journals (revise and resubmit). While we recognize that extenuating circumstances may occasionally necessitate expedited review, collaborators are expected to plan proactively to ensure sufficient time for the PRIDE team to provide feedback and for collaborators to incorporate that feedback before submission deadlines.
 
-Once the paper has been submitted, please notify our PRIDEnet Clinical Research Coordinator Associate, [Ell Hundertmark](mailto:ellhun@stanford.edu), so that we can keep track of all paper submissions.
+Once the paper has been submitted, please notify our PRIDEnet Clinical Research Coordinator Associate, Ell Hundertmark, so that we can keep track of all paper submissions.
 
 ### Acknowledgements
 
@@ -54,7 +54,7 @@ Code sharing is increasingly requested by journals; however, the process can var
 -   Identifying information (author names, institutions, etc) can be masked for double-blind review
 -   Version tracking that can allow identifying information to be unblinded after paper acceptance while preserving connection to previous versions
 
-For investigators who are relying on our team to conduct analyses internally and are interested in code sharing through PRIDE’s GitHub and Zenodo accounts, we recommend reaching to our biostatistician, [Nguyen Tran](mailto:nktran@stanford.edu), who can add the code to GitHub and Zenedo. Once this has been completed, we will provide investigators with a web address and a Digital Object Identifier to a permanent, de-identified snapshot of the code that can be referenced the in paper.
+For investigators who are relying on our team to conduct analyses internally and are interested in code sharing through PRIDE’s GitHub and Zenodo accounts, we recommend reaching to our biostatistician, Nguyen Tran, who can add the code to GitHub and Zenedo. Once this has been completed, we will provide investigators with a web address and a Digital Object Identifier to a permanent, de-identified snapshot of the code that can be referenced the in paper.
 
 **Data Sharing.** It is the position of The PRIDE Study to not publicly share datasets generated and/or analyzed for any study due to ethical restrictions related to sensitive participant information. Any investigators interested in conducting research using data The PRIDE Study are welcome to submit a proposal through our [Ancillary Study process](https://pridestudy.org/collaborate). We have boilerplate language that can be used as part of the data sharing statement for all paper submissions.
 
@@ -68,7 +68,7 @@ While not required, preprints are one possible options for investigators who are
 
 In order to “close the loop” and return value to participants that have contributed their data to The PRIDE Study, we require that all investigators who publish their studies using The PRIDE Study data to complete a community-friendly summary of research findings as part of our [dissemination guidelines](https://www.dropbox.com/scl/fi/qknjgc18fqgp7vgxc8q7z/The-PRIDE-Study-Research-Dissemination-Plan_2019-12-06.pdf?rlkey=p4nepjqxn7eu5xoup7x4e2hkc&e=1&dl=0). This requirement reflects our commitment to community-based participatory research and ensures that LGBTQIA+ participants directly benefit from their involvement in the study. The community-friendly summary should be written in accessible, non-technical language that avoids jargon and clearly explains what the research found, why it matters, and how it might impact LGBTQIA+ health and wellbeing. This process is as follows:
 
-1.  **Notify The PRIDE Study Team.** Upon acceptance of the manuscript, contact our Program Management Director, [Daniel Moretti](mailto:dmoretti@stanford.edu), and PRIDEnet Clinical Research Coordinator Associate, [Ell Hundertmark](mailto:ellhun@stanford.edu), to notify us of the paper acceptance initiate the research dissemination process.
+1.  **Notify The PRIDE Study Team.** Upon acceptance of the manuscript, contact our Program Management Director, Daniel Moretti, and PRIDEnet Clinical Research Coordinator Associate, Ell Hundertmark, to notify us of the paper acceptance initiate the research dissemination process.
 2.  **Complete Community-Friendly Summary.** The PRIDE Study team will send a template of the community-friendly summary to the first author for completion within 1 week. Along with the summary, we will request addition information including whether the paper will be open-access, NIH funding support details, anticipated publication date, and final article PDF and citation.  
 3.  **Collaborative Review and Editing**. Our team will review the summary and provide edits as needed to ensure that the language is accessible to participants.
 4.  **Dissemination.** Once the paper is published, the community-friendly summary will be shared with participants through our email listserv and posted on our website. Examples of previous summaries can be found on our [website](https://pridestudy.org/research).

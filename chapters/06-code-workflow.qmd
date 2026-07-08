@@ -93,7 +93,7 @@ A `README` file serves as the primary documentation for your project, explaining
 
 ### Git and GitHub
 
-Our team uses Git and GitHub for managing and hosting version-controlled repositories for our research projects. This effort is led and managed by our biostatistician, Nguyen Tran. For external collaborators whose analyses by our internal team and are interested in making the code publicly available, please contact [Nguyen Tran](mailto:nktran@stanford.edu) to initiate this process as outlined in @sec-code-data-share.
+Our team uses Git and GitHub for managing and hosting version-controlled repositories for our research projects. This effort is led and managed by our biostatistician, Nguyen Tran. For external collaborators whose analyses by our internal team and are interested in making the code publicly available, please contact Nguyen Tran to initiate this process as outlined in @sec-code-data-share.
 
 Our team does not require new members or trainees to have prior experience with Git and GitHub. We recognize that these tools may be unfamiliar to many researchers. We encourage developing these skills over time as version control is essential for reproducible research and effective collaboration. Trainees who are interested in learning more about Git and GitHub, Nguyen Tran is available to guide you through the process. This includes helping with creating your personal GitHub account, setting up repositories, learning essential git commands, understanding our project documentation standards, and eventually transferring your work to The PRIDE Study GitHub.
 

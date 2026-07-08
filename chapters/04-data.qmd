@@ -14,7 +14,7 @@ For team members who receive access to raw data from The PRIDE Study, it is reco
 
 When conducting analyses store raw data files only on the approved secure storage system, specify the secure file path in your integrated development environment, and access and analyze data from the secure location without creating local copies. Refer to Section 5.1 for suggested R workflows implementing these practices.
 
-If you need additional guidance on secure data sharing or storage protocols, please contact [Nguyen Tran](mailto:nktran@stanford.edu) or [Mitchell Lunn](lunn@stanford.edu) before handling any study data.
+If you need additional guidance on secure data sharing or storage protocols, please contact Nguyen Tran or Mitchell Lunn before handling any study data.
 
 ### Human Participant Protection
 
