@@ -23,6 +23,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -183,6 +218,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#research-dissemination-back-to-lgbtqia-communities" id="toc-research-dissemination-back-to-lgbtqia-communities" class="nav-link" data-scroll-target="#research-dissemination-back-to-lgbtqia-communities"><span class="header-section-number">3.2.4</span> Research Dissemination Back to LGBTQIA+ Communities</a></li>
   </ul></li>
   <li><a href="#conferences" id="toc-conferences" class="nav-link" data-scroll-target="#conferences"><span class="header-section-number">3.3</span> Conferences</a></li>
+  <li><a href="#sec-repo-resources" id="toc-sec-repo-resources" class="nav-link" data-scroll-target="#sec-repo-resources"><span class="header-section-number">3.4</span> Resources</a></li>
   </ul>
 </nav>
     </div>
@@ -260,6 +296,8 @@ ul.task-list li input[type="checkbox"] {
 <blockquote class="blockquote">
 <p><strong>Data Availability Statement.</strong> The datasets generated and/or analyzed during the current study are not publicly available due to ethical restrictions related to sensitive participant information but are available from the corresponding author on reasonable request. Researchers interested in The PRIDE Study data may submit a brief application which is reviewed by both a Research Advisory Committee (composed of scientists) and Participant Advisory Committee (composed of participants) to affirm appropriate data use. Details about the Ancillary Study process are available at www.pridestudy.org/collaborate or by contacting support@pridestudy.org or 855-421-9991 (toll-free).</p>
 </blockquote>
+<p>One possible alternative to data sharing of PRIDE Study data is to generate a synthetic dataset with similar characteristics to the original data.<sup><a href="#sec-repo-resources">1</a></sup> This can be done using <code>worcs::synthetic()</code> which defaults to a random forest algorithm to generate synthetic data; other models can be specified to generate synthetic values.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>iris_syn <span class="ot">&lt;-</span> worcs<span class="sc">::</span><span class="fu">synthetic</span>(iris)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="preprints" class="level3" data-number="3.2.3">
 <h3 data-number="3.2.3" class="anchored" data-anchor-id="preprints"><span class="header-section-number">3.2.3</span> Preprints</h3>
@@ -280,6 +318,13 @@ ul.task-list li input[type="checkbox"] {
 <h2 data-number="3.3" class="anchored" data-anchor-id="conferences"><span class="header-section-number">3.3</span> Conferences</h2>
 <p>Any plans to submit abstracts to a conference that uses data from The PRIDE Study are required to be reviewed by The PRIDE Study prior to submission for conferences. The PRIDE Study requests at least 1 week in order to provide feedback. First authors of all abstracts should share their abstracts to all co-authors via email while coping Ell Hundertmark, PRIDEnet Clinical Research Coordinator.</p>
 <p>For trainees that are under the mentorship of one of The PRIDE Study co-directors, it is recommended that they reach out to their mentor with ample time in order to discuss funding options for the trip. Stanford Travel policies require that all flights and hotels must be purchased through Stanford Travel.</p>
+</section>
+<section id="sec-repo-resources" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="sec-repo-resources"><span class="header-section-number">3.4</span> Resources</h2>
+<ul>
+<li><p>Van Lissa CJ, Brandmaier AM, Brinkman L, et al.&nbsp;WORCS: A workflow for open reproducible code in science. <em>Data Science</em>. 2021;4(1):29-49. doi:<a href="https://doi.org/10.3233/DS-210031">10.3233/DS-210031</a></p></li>
+<li><p>Nowok, B., Raab, G.M and Dibben, C. synthpop: Bespoke creation of synthetic data in R. <em>Journal of Statistical Software</em>. 2016:74(11):1-26. <a href="https://doi.org/10.18637/jss.v074.i11">doi:10.18637/jss.v074.i11</a> .</p></li>
+</ul>
 
 
 </section>

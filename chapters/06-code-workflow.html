@@ -220,6 +220,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#code-review" id="toc-code-review" class="nav-link" data-scroll-target="#code-review"><span class="header-section-number">6.3.5</span> Code Review</a></li>
   </ul></li>
   <li><a href="#script-templates-for-reproducible-analysis" id="toc-script-templates-for-reproducible-analysis" class="nav-link" data-scroll-target="#script-templates-for-reproducible-analysis"><span class="header-section-number">6.4</span> Script Templates for Reproducible Analysis</a></li>
+  <li><a href="#sec-repo2-resources" id="toc-sec-repo2-resources" class="nav-link" data-scroll-target="#sec-repo2-resources"><span class="header-section-number">6.5</span> Resources</a></li>
   </ul>
 </nav>
     </div>
@@ -246,7 +247,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <p>Coding is difficult! There are many ways to code something that will achieve the same goal. Our general philosophy at PRIDE is based on a general set of coding principles and workflows that are broadly applicable across coding languages and integrated development environments. We recognize the need for transparent and reproducible science while ensuring that we protect the data privacy of LGBTQIA+ participants at The PRIDE Study. We also note that this is a living document: we can update as the team and coding philosophy change over time.</p>
-<p>We focus on providing general recommendations and scripts that allow individual members at PRIDE to code how they prefer while maintaining reproducibility, ease of collaboration, and data privacy of participants. We do not tell our team members which language to use or, for the post part, which tools to use within a given language.</p>
+<p>We focus on providing general recommendations and scripts that allow individual members at PRIDE to code how they prefer while maintaining reproducibility, ease of collaboration, and data privacy of participants. We do not tell our team members which language to use or, for the post part, which tools to use within a given language. For those interested in specific recommendations, we suggests reading the works of Van Lissa et al.&nbsp;(2021)<sup><a href="#sec-repo2-resources">1</a></sup> or reading the accompanying <a href="https://cjvanlissa.github.io/worcs/index.html">vignette</a>.</p>
 <p>Currently, our team can support workflows in R with more limited support for Python. Thus, we offer guidance specifically in R. We’ll add relevant recommendations if other languages become more prominent in the team</p>
 <p>We use R as our primary programming language. It has excellent tools for statistical analysis, visualization, and reproducible research. Here is a brief summary of our approach.</p>
 <section id="code-style-and-standard" class="level2" data-number="6.1">
@@ -309,7 +310,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h3 data-number="6.3.4" class="anchored" data-anchor-id="git-and-github"><span class="header-section-number">6.3.4</span> Git and GitHub</h3>
 <p>Our team uses Git and GitHub for managing and hosting version-controlled repositories for our research projects. This effort is led and managed by our biostatistician, Nguyen Tran. For external collaborators whose analyses by our internal team and are interested in making the code publicly available, please contact Nguyen Tran to initiate this process as outlined in <a href="03-publications.html#sec-code-data-share" class="quarto-xref"><span>Section 3.2.2</span></a>.</p>
 <p>Our team does not require new members or trainees to have prior experience with Git and GitHub. We recognize that these tools may be unfamiliar to many researchers. We encourage developing these skills over time as version control is essential for reproducible research and effective collaboration. Trainees who are interested in learning more about Git and GitHub, Nguyen Tran is available to guide you through the process. This includes helping with creating your personal GitHub account, setting up repositories, learning essential git commands, understanding our project documentation standards, and eventually transferring your work to The PRIDE Study GitHub.</p>
-<p>There are also several other labs at Stanford provide introductory guidance to Git and GitHub such as the <a href="https://kianglab.github.io/labmanual/projectstructure.html#projectstructure-git">Kiang Lab</a> and <a href="https://stanfordhpds.github.io/lab_manual/chapters/08-code-workflow-agreements.html#sec-git-github">Stanford Health Policy and Data Science</a>.</p>
+<p>There are also several other labs at Stanford provide introductory guidance to Git and GitHub such as the <a href="https://kianglab.github.io/labmanual/projectstructure.html#projectstructure-git">Kiang Lab</a> and <a href="https://stanfordhpds.github.io/lab_manual/chapters/08-code-workflow-agreements.html#sec-git-github">Stanford Health Policy and Data Science</a>. We also recommend the paper by Van Lissa et al.&nbsp;(2021)<sup><a href="#sec-repo2-resources">1</a></sup> for a coding workflow for reproducible science.</p>
+<div class="Callout-warning">
+<p>In general, we urge trainees and collaborators to not upload any data from The PRIDE Study, whether original or generated during the analysis, onto GitHub as part of their workflow. <strong>Making data available through a public GitHub repository is prohibited under our data use agreement and violates our data privacy policies.</strong> Even if the repository is private and <a href="https://docs.github.com/en/get-started/git-basics/ignoring-files">.gitignore</a> is used to prevent the upload of sensitive data onto GitHub, this is not foolproof (see <a href="https://www.theguardian.com/science/2026/mar/14/confidential-health-records-exposed-online-uk-biobank">article</a> on UK BioBank data leak). All data shared by The PRIDE Study should be stored in a secure manner (see <span class="quarto-unresolved-ref">?sec-sec-data-store</span> for examples). If you wish to provide data, we recommend generating a synthetic dataset with similar characteristics to the original data using <code>worcs::synthetic()</code> or simply use the recommended data available statement in <a href="03-publications.html#sec-code-data-share" class="quarto-xref"><span>Section 3.2.2</span></a> for your paper submission.</p>
+</div>
 </section>
 <section id="code-review" class="level3" data-number="6.3.5">
 <h3 data-number="6.3.5" class="anchored" data-anchor-id="code-review"><span class="header-section-number">6.3.5</span> Code Review</h3>
@@ -321,6 +325,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 data-number="6.4" class="anchored" data-anchor-id="script-templates-for-reproducible-analysis"><span class="header-section-number">6.4</span> Script Templates for Reproducible Analysis</h2>
 <p>To support reproducible research practices, we have developed a collection of script templates in R for handling common and repetitive tasks that are prone to human error.</p>
 <p>To view scripts aimed at supporting reproducible workflows in R, please check out our repository on <a href="https://github.com/pride-study/scripts_for_reproducible_PRIDE_analysis.git">GitHub</a>. Please note that these templates may be updated over time based on feedback from team members.</p>
+</section>
+<section id="sec-repo2-resources" class="level2" data-number="6.5">
+<h2 data-number="6.5" class="anchored" data-anchor-id="sec-repo2-resources"><span class="header-section-number">6.5</span> Resources</h2>
+<ul>
+<li>Van Lissa CJ, Brandmaier AM, Brinkman L, et al.&nbsp;WORCS: A workflow for open reproducible code in science. <em>Data Science</em>. 2021;4(1):29-49. doi:<a href="https://doi.org/10.3233/DS-210031">10.3233/DS-210031</a></li>
+</ul>
 
 
 </section>
