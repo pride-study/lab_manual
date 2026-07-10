@@ -42,7 +42,7 @@ All participants are invited to complete follow-up annual questionnaires, with e
 
 To date, \>17,000 participants have completed either version 1 or 2 of the lifetime questionnaire. In addition, \>16,000 participants have completed at least one annual questionnaire and \>11,000 have completed more than 1 annual questionnaire between 2017-2025.
 
-## Ancillary Study
+## Ancillary Study {#sec-anc-study}
 
 Ancillary studies are research investigation conducted in collaboration with The PRIDE Study. The process was developed to encourage research to benefit LGBTQIA+ communities. There are generally 2 type of ancillary studies that can be proposed:
 

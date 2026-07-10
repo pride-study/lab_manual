@@ -20,7 +20,7 @@ If you need additional guidance on secure data sharing or storage protocols, ple
 
 **Training.** Each internal team member and/or trainee must complete required trainings on the protection of human subjects when working with The PRIDE Study data. Additional trainings may be required depending on the study.
 
-**IRB.** The PRIDE Study maintains active IRB approval through Stanford University and the Western Institutional Review Board Copernicus Group (WCG) covering all study activities. IRB requirements for Ancillary Studies differ based on whether they involve secondary data analysis of existing PRIDE Study data or primary data collection through novel questionnaires.
+**IRB.** The PRIDE Study maintains active IRB approval through Stanford University and the Western Institutional Review Board Copernicus Group (WCG) covering all study activities. IRB requirements for Ancillary Studies differ based on whether they involve secondary data analysis of existing PRIDE Study data or primary data collection through novel questionnaires (see @sec-anc-study for more details).
 
 In general, Ancillary Studies using only existing PRIDE Study data do not require modifications to the Stanford or WCG IRB approvals. It is cover under the current Stanford and WCG IRB. For Ancillary Studies administrating new questionnaires, The PRIDE Study submits a WCG IRB modification that includes this new questionnaire once it is finalized.
 
