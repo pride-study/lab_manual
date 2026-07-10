@@ -2,7 +2,7 @@
 
 Coding is difficult! There are many ways to code something that will achieve the same goal. Our general philosophy at PRIDE is based on a general set of coding principles and workflows that are broadly applicable across coding languages and integrated development environments. We recognize the need for transparent and reproducible science while ensuring that we protect the data privacy of LGBTQIA+ participants at The PRIDE Study. We also note that this is a living document: we can update as the team and coding philosophy change over time.
 
-We focus on providing general recommendations and scripts that allow individual members at PRIDE to code how they prefer while maintaining reproducibility, ease of collaboration, and data privacy of participants. We do not tell our team members which language to use or, for the post part, which tools to use within a given language.
+We focus on providing general recommendations and scripts that allow individual members at PRIDE to code how they prefer while maintaining reproducibility, ease of collaboration, and data privacy of participants. We do not tell our team members which language to use or, for the post part, which tools to use within a given language. For those interested in specific recommendations, we suggests reading the works of Van Lissa et al. (2021)<sup>[1](#sec-repo2-resources)</sup> or reading the accompanying [vignette](https://cjvanlissa.github.io/worcs/index.html). 
 
 Currently, our team can support workflows in R with more limited support for Python. Thus, we offer guidance specifically in R. We’ll add relevant recommendations if other languages become more prominent in the team
 
@@ -12,7 +12,7 @@ We use R as our primary programming language. It has excellent tools for statist
 
 Consistency of code style is essential for collaboration. It speeds up the reading of code and reduces debates on what code should look like. We prefer the [Tidyverse style](https://style.tidyverse.org/index.html) for coding. This can be automatically implemented using the styler package. Despite the name, this guide also applies to non-Tidyverse code, including base R and data.table.
 
-```r
+``` r
 # style all R-related files in the current directory
 styler::style_dir()
 ```
@@ -53,7 +53,7 @@ The Kiang Lab also has a [template](https://kianglab.github.io/labmanual/project
 
 We recommend to not hardcode direct file paths that only exists on your computer:
 
-```r
+``` r
 raw_df = readr::read_csv("/users/ntran/Downloads/data.csv")
 ```
 
@@ -61,7 +61,7 @@ Our preference is to use file paths that are relative to the root directory of y
 
 For example, data.csv should be in your project directory (`my_project.Rproj`), which you can access with relative paths. In addition, we recommend using the here package help specify the relative paths:
 
-```r
+``` r
 raw_df = readr::read_csv(here::here("data", "data.csv"))
 ```
 
@@ -73,7 +73,7 @@ Good documentation practice is essential to ensure that anyone who reviews or in
 
 The "what" should be evident from well-written, clear code itself; if not, your code may be overly complex. The "why" is often more critical because it provides the reasoning for your analytical decisions, methodological choices, and problem-solving approach. This context cannot always be inferred from the code alone.
 
-```r
+``` r
 # Group together trans and gender diverse identities to avoid small cell sizes
 clean_df <- raw_df |>
     dplyr::mutate(
@@ -97,7 +97,11 @@ Our team uses Git and GitHub for managing and hosting version-controlled reposit
 
 Our team does not require new members or trainees to have prior experience with Git and GitHub. We recognize that these tools may be unfamiliar to many researchers. We encourage developing these skills over time as version control is essential for reproducible research and effective collaboration. Trainees who are interested in learning more about Git and GitHub, Nguyen Tran is available to guide you through the process. This includes helping with creating your personal GitHub account, setting up repositories, learning essential git commands, understanding our project documentation standards, and eventually transferring your work to The PRIDE Study GitHub.
 
-There are also several other labs at Stanford provide introductory guidance to Git and GitHub such as the [Kiang Lab](https://kianglab.github.io/labmanual/projectstructure.html#projectstructure-git) and [Stanford Health Policy and Data Science](https://stanfordhpds.github.io/lab_manual/chapters/08-code-workflow-agreements.html#sec-git-github).
+There are also several other labs at Stanford provide introductory guidance to Git and GitHub such as the [Kiang Lab](https://kianglab.github.io/labmanual/projectstructure.html#projectstructure-git) and [Stanford Health Policy and Data Science](https://stanfordhpds.github.io/lab_manual/chapters/08-code-workflow-agreements.html#sec-git-github). We also recommend the paper by Van Lissa et al. (2021)<sup>[1](#sec-repo2-resources)</sup> for a coding workflow for reproducible science. 
+
+::: Callout-warning
+In general, we urge trainees and collaborators to not upload any data from The PRIDE Study, whether original or generated during the analysis, onto GitHub as part of their workflow. **Making data available through a public GitHub repository is prohibited under our data use agreement and violates our data privacy policies.** Even if the repository is private and [.gitignore](https://docs.github.com/en/get-started/git-basics/ignoring-files) is used to prevent the upload of sensitive data onto GitHub, this is not foolproof (see [article](https://www.theguardian.com/science/2026/mar/14/confidential-health-records-exposed-online-uk-biobank) on UK BioBank data leak). All data shared by The PRIDE Study should be stored in a secure manner (see @sec-sec-data-store for examples). If you wish to provide data, we recommend generating a synthetic dataset with similar characteristics to the original data using `worcs::synthetic()` or simply use the recommended data available statement in @sec-code-data-share for your paper submission. 
+:::
 
 ### Code Review
 
@@ -105,8 +109,12 @@ Code review is a collaborative practice where team members examine each other's 
 
 Trainees or external collaborators working with PRIDE Study data who would like code review should contact Nguyen Tran in advance to arrange this. Our preference is that code reviews are done through GitHub using a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests). However, for those not familiar with GitHub, please share your code and documentation through the institution's secure file sharing platform (Box or Dropbox), along with a brief description of your analysis objectives and any specific areas where you would like feedback.
 
-## Script Templates for Reproducible Analysis 
+## Script Templates for Reproducible Analysis
 
 To support reproducible research practices, we have developed a collection of script templates in R for handling common and repetitive tasks that are prone to human error.
 
 To view scripts aimed at supporting reproducible workflows in R, please check out our repository on [GitHub](https://github.com/pride-study/scripts_for_reproducible_PRIDE_analysis.git). Please note that these templates may be updated over time based on feedback from team members.
+
+## Resources {#sec-repo2-resources}
+
+-   Van Lissa CJ, Brandmaier AM, Brinkman L, et al. WORCS: A workflow for open reproducible code in science. *Data Science*. 2021;4(1):29-49. doi:[10.3233/DS-210031](https://doi.org/10.3233/DS-210031)

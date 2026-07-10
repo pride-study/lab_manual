@@ -4,7 +4,7 @@
 
 Protection of LGBTQIA+ participant’s data is a core concern in The PRIDE Study. Working with data in research studies must be grounded in the respect for the people and communities whose information is represented in the data. Thus, we must follow precise and strict guidelines to maintain data privacy and protect sensitive information in The PRIDE Study.
 
-### Data Security and Storage Guidelines
+### Data Security and Storage Guidelines {#sec-data-store}
 
 When new members or trainees join the team, your computer must be encrypted and have institutional security management software installed prior to being granted access to study data. If your computer is not encrypted, please contact your direct supervisor Annesa Flentje, Daniel Morretti Mitchell Lunn, or Juno Obedin-Maliver for support. This is a mandatory prerequisite for all data access privileges.
 

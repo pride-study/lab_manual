@@ -60,6 +60,12 @@ For investigators who are relying on our team to conduct analyses internally and
 
 > **Data Availability Statement.** The datasets generated and/or analyzed during the current study are not publicly available due to ethical restrictions related to sensitive participant information but are available from the corresponding author on reasonable request. Researchers interested in The PRIDE Study data may submit a brief application which is reviewed by both a Research Advisory Committee (composed of scientists) and Participant Advisory Committee (composed of participants) to affirm appropriate data use. Details about the Ancillary Study process are available at www.pridestudy.org/collaborate or by contacting support\@pridestudy.org or 855-421-9991 (toll-free).
 
+One possible alternative to data sharing of PRIDE Study data is to generate a synthetic dataset with similar characteristics to the original data.<sup>[1](#sec-repo-resources)</sup>  This can be done using `worcs::synthetic()` which defaults to a random forest algorithm to generate synthetic data; other models can be specified to generate synthetic values.
+
+``` r
+iris_syn <- worcs::synthetic(iris)
+```
+
 ### Preprints
 
 While not required, preprints are one possible options for investigators who are interested in getting their work out sooner. It is important to note that preprints are not peer-reviewed and are potentially subjected to change after going through the journal review process. The general advantage for posting on preprint servers is that these papers will be free for public access, which may be relevant if study findings have time-sensitive policy-related implications, and can be listed on resumes, biosketches, or curriculum vitae for grant applications, job opportunities, or promotion. Commonly used preprint serves include arXiv, medRxiv, PysArXiv, OSF, and Zenodo.
@@ -78,3 +84,9 @@ In order to “close the loop” and return value to participants that have cont
 Any plans to submit abstracts to a conference that uses data from The PRIDE Study are required to be reviewed by The PRIDE Study prior to submission for conferences. The PRIDE Study requests at least 1 week in order to provide feedback. First authors of all abstracts should share their abstracts to all co-authors via email while coping Ell Hundertmark, PRIDEnet Clinical Research Coordinator.
 
 For trainees that are under the mentorship of one of The PRIDE Study co-directors, it is recommended that they reach out to their mentor with ample time in order to discuss funding options for the trip. Stanford Travel policies require that all flights and hotels must be purchased through Stanford Travel.
+
+## Resources {#sec-repo-resources}
+
+-   Van Lissa CJ, Brandmaier AM, Brinkman L, et al. WORCS: A workflow for open reproducible code in science. *Data Science*. 2021;4(1):29-49. doi:[10.3233/DS-210031](https://doi.org/10.3233/DS-210031)
+
+-   Nowok, B., Raab, G.M and Dibben, C. synthpop: Bespoke creation of synthetic data in R. *Journal of Statistical Software*. 2016:74(11):1-26. [doi:10.18637/jss.v074.i11](https://doi.org/10.18637/jss.v074.i11) .
