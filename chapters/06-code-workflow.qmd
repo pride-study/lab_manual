@@ -2,7 +2,7 @@
 
 Coding is difficult! There are many ways to code something that will achieve the same goal. Our general philosophy at PRIDE is based on a general set of coding principles and workflows that are broadly applicable across coding languages and integrated development environments. We recognize the need for transparent and reproducible science while ensuring that we protect the data privacy of LGBTQIA+ participants at The PRIDE Study. We also note that this is a living document: we can update as the team and coding philosophy change over time.
 
-We focus on providing general recommendations and scripts that allow individual members at PRIDE to code how they prefer while maintaining reproducibility, ease of collaboration, and data privacy of participants. We do not tell our team members which language to use or, for the post part, which tools to use within a given language. For those interested in specific recommendations, we suggests reading the works of Van Lissa et al. (2021)<sup>[1](#sec-repo2-resources)</sup> or the accompanying [vignette](https://cjvanlissa.github.io/worcs/index.html). 
+We focus on providing general recommendations and scripts that allow individual members at PRIDE to code how they prefer while maintaining reproducibility, ease of collaboration, and data privacy of participants. We do not tell our team members which language to use or, for the most part, which tools to use within a given language. For those interested in specific recommendations, we suggests reading the works of Van Lissa et al. (2021)<sup>[1](#sec-repo2-resources)</sup> or the accompanying [vignette](https://cjvanlissa.github.io/worcs/index.html). 
 
 Currently, our team can support workflows in R with more limited support for Python. Thus, we offer guidance specifically in R. We’ll add relevant recommendations if other languages become more prominent in the team
 
@@ -116,6 +116,8 @@ Trainees or external collaborators working with PRIDE Study data who would like 
 To support reproducible research practices, we have developed a collection of script templates in R for handling common and repetitive tasks that are prone to human error.
 
 To view scripts aimed at supporting reproducible workflows in R, please check out our repository on [GitHub](https://github.com/pride-study/scripts_for_reproducible_PRIDE_analysis.git). Please note that these templates may be updated over time based on feedback from team members.
+
+In addition, we recommend the [Epidemiologist R Handbook](https://www.epirhandbook.com/en/) as an R code reference manual that adresses common data, epidemiological, and statistical challenges. 
 
 ## Resources {#sec-repo2-resources}
 
