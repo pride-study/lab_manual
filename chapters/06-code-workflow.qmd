@@ -49,7 +49,7 @@ For example, an R project might look like this:
 
 The Kiang Lab also has a [template](https://kianglab.github.io/labmanual/projectstructure.html) for setting new research projects, which includes an appendix that explains the reasoning behind the template. 
 
-### File Paths
+### File Paths {#sec-file-paths}
 
 We recommend to not hardcode direct file paths that only exists on your computer:
 
