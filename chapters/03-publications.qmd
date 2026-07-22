@@ -20,8 +20,8 @@ Scientific writing is difficult! For anyone new to scientific writing (or those 
 
 Given the study design of The PRIDE Study, the 2 most common reporting guidelines are:
 
--   Strengthening the reporting of observational studies in epidemiology (STROBE)
--   Consolidated criteria for reporting qualitative research (COREQ)
+-   Strengthening the reporting of observational studies in epidemiology ([STROBE](https://www.equator-network.org/reporting-guidelines/strobe/))
+-   Consolidated criteria for reporting qualitative research ([COREQ](https://www.equator-network.org/reporting-guidelines/coreq/))
 
 All manuscripts using data from The PRIDE Study are required to be reviewed by The PRIDE Study prior to submission for publication. This is a necessary step to confirm that the submissions are aligned with The PRIDE Study's mission and match the approved Ancillary Study application. Collaborators (internal or external to PRIDE) should submit their complete manuscript and all associated files for review through our online [submission form](https://airtable.com/appr3ByWPVLLqok8I/pagUv4U3WrhkHAcBA/form).
 
@@ -83,7 +83,7 @@ In order to “close the loop” and return value to participants that have cont
 
 Any abstract submissions to conferences that use data from The PRIDE Study are required to be reviewed by The PRIDE Study prior to submission. The PRIDE Study requests at least 1 week in order to provide feedback. First authors of all abstracts should share their abstracts to all co-authors *via* email while copying [research team](mailto:research@pridestudy.org).
 
-For trainees that are under the mentorship of one of The PRIDE Study co-directors, it is recommended that they reach out to their mentor with ample time in order to discuss funding options for the trip. 
+For trainees that are under the direct mentorship of one of The PRIDE Study co-directors, it is recommended that they reach out to their mentor with ample time in order to discuss funding options for the trip. 
 
 ## Resources {#sec-repo-resources}
 
