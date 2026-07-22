@@ -54,7 +54,7 @@
     "href": "chapters/02-policies.html#sec-communication",
     "title": "2  General Policies",
     "section": "",
-    "text": "Tip\n\n\n\nAny information that contains participant identifiers should only be through secure channels. This is typically limited to email that stays within Stanford systems with a subject line that has no participant information and says “Secure:” (including the “:”) within the subject line. See Section 4.1.1 for more details.",
+    "text": "Important\n\n\n\nAny information that contains participant identifiers should only be through secure channels. This is typically limited to email that stays within Stanford systems with a subject line that has no participant information and says “Secure:” (including the “:”) within the subject line. See Section 4.1.1 for more details.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>General Policies</span>"
     ]
