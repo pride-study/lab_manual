@@ -172,7 +172,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/04-data.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Data</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Data Protection</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -322,14 +322,14 @@ Warning
 </div>
 <div class="callout-body-container callout-body">
 <p>In general, we urge trainees and collaborators not to upload any data from The PRIDE Study onto GitHub as part of their workflow, whether original or generated during analysis. <strong>Making data available through a public GitHub repository is prohibited under our data use agreement and violates our data privacy policies.</strong> Even if the repository is private and <a href="https://docs.github.com/en/get-started/git-basics/ignoring-files">.gitignore</a> is used to prevent uploading sensitive data to GitHub, this is not foolproof (see <a href="https://www.theguardian.com/science/2026/mar/14/confidential-health-records-exposed-online-uk-biobank">UK BioBank data leak</a>).</p>
-<p>All data shared by The PRIDE Study must be stored securely (see <a href="04-data.html#sec-data-store" class="quarto-xref"><span>Section 4.1.1</span></a> for examples). If you wish to share data, we recommend either generating a synthetic dataset with similar characteristics to the original data using <code>worcs::synthetic()</code> or using the recommended data availability statement in <a href="03-publications.html#sec-code-data-share" class="quarto-xref"><span>Section 3.2.2</span></a> for your paper submission.</p>
+<p>All data shared by The PRIDE Study must be stored securely (see <a href="04-data.html#sec-data-store" class="quarto-xref"><span>Section 4.1</span></a> for examples). If you wish to share data, we recommend either generating a synthetic dataset with similar characteristics to the original data using <code>worcs::synthetic()</code> or using the recommended data availability statement in <a href="03-publications.html#sec-code-data-share" class="quarto-xref"><span>Section 3.2.2</span></a> for your paper submission.</p>
 </div>
 </div>
 </section>
 <section id="code-review" class="level3" data-number="6.3.5">
 <h3 data-number="6.3.5" class="anchored" data-anchor-id="code-review"><span class="header-section-number">6.3.5</span> Code Review</h3>
-<p>Code review is a collaborative practice where team members examine each other’s code before it is finalized or published. This process is essential for ensuring the quality and reproducibility of our research.</p>
-<p>Trainees or external collaborators working with PRIDE Study data who would like code review should contact Nguyen Tran in advance to arrange this. Our preference is that code reviews are done through GitHub using a <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests">pull request</a>. However, for those not familiar with GitHub, please share your code and documentation through the institution’s secure file sharing platform (Box or Dropbox), along with a brief description of your analysis objectives and any specific areas where you would like feedback.</p>
+<p>Code review is a collaborative practice where team members examine each other’s code before it is finalized or published. This process can be helpful for ensuring the quality and reproducibility of our research.</p>
+<p>Trainees or external collaborators working with PRIDE Study data who would like code review should contact Nguyen Tran in advance to arrange this. Our preference is that code reviews are done through GitHub using a <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests">pull request</a>. However, for those not familiar with GitHub, please share your code and documentation through a secure file sharing platform (Box or Dropbox), along with a brief description of your analysis objectives and any specific areas where you would like feedback. Please ensure that no participant identifiers are shared during this process. Data sharing can be helpful but is not necessary for code review.</p>
 </section>
 </section>
 <section id="script-templates-for-reproducible-analysis" class="level2" data-number="6.4">
