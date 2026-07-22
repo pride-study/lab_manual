@@ -6,11 +6,11 @@ Protection of LGBTQIA+ participant’s data is a core concern in The PRIDE Study
 
 ### Data Security and Storage Guidelines {#sec-data-store}
 
-When new members or trainees join the team, your computer must be encrypted and have institutional security management software installed prior to being granted access to study data. If your computer is not encrypted, please contact your direct supervisor Annesa Flentje, Daniel Morretti Mitchell Lunn, or Juno Obedin-Maliver for support. This is a mandatory prerequisite for all data access privileges.
+When new members or trainees join the team, your computer must be encrypted and have institutional security management software installed prior to being granted access to study data. If your computer is not encrypted, please contact your direct supervisor Annesa Flentje, Daniel Moretti, Mitchell Lunn, or Juno Obedin-Maliver for support. This is a mandatory prerequisite for all data access privileges.
 
-The PRIDE Study data is stored on secure, HIPAA-compliant servers with restricted access controls. For internal sharing, it recommended that data be shared through Dropbox or Stanford Medicine Box or, if using email, sent through the [Secure Email](https://uit.stanford.edu/service/secureemail) service designated for [Moderate or High Risk Data](https://uit.stanford.edu/guide/riskclassifications#application-classification-examples).
+The PRIDE Study data is stored on secure, HIPAA-compliant servers with restricted access controls. For internal sharing, it recommended that data be shared through Stanford Medicine Box or, if using email, sent through the [Secure Email](https://uit.stanford.edu/service/secureemail) service designated for [Moderate or High Risk Data](https://uit.stanford.edu/guide/riskclassifications#application-classification-examples).
 
-For team members who receive access to raw data from The PRIDE Study, it is recommended to never download any data to your personal work device (even if it is encrypted) as this creates unnecessary risk of data breach, loss, or unauthorized access. Instead, store all study data in a secure network drive or institutional cloud storage system, such The PRIDE Study Dropbox for Stanford Box.
+For team members who receive access to raw data from The PRIDE Study, it is recommended to never download any data to your personal work device (even if it is encrypted) as this creates unnecessary risk of data breach, loss, or unauthorized access. Instead, store all study data in a secure network drive or institutional cloud storage system, such as Stanford Box.
 
 When conducting analyses store raw data files only on the approved secure storage system, specify the secure file path in your integrated development environment, and access and analyze data from the secure location without creating local copies. Refer to Section 5.1 for suggested R workflows implementing these practices.
 
@@ -22,7 +22,7 @@ If you need additional guidance on secure data sharing or storage protocols, ple
 
 **IRB.** The PRIDE Study maintains active IRB approval through Stanford University and the Western Institutional Review Board Copernicus Group (WCG) covering all study activities. IRB requirements for Ancillary Studies differ based on whether they involve secondary data analysis of existing PRIDE Study data or primary data collection through novel questionnaires (see @sec-anc-study for more details).
 
-In general, Ancillary Studies using only existing PRIDE Study data do not require modifications to the Stanford or WCG IRB approvals. It is cover under the current Stanford and WCG IRB. For Ancillary Studies administrating new questionnaires, The PRIDE Study submits a WCG IRB modification that includes this new questionnaire once it is finalized.
+In general, Ancillary Studies using only existing PRIDE Study data do not require modifications to the Stanford or WCG IRB approvals. It is covered under the current Stanford and WCG IRB. For Ancillary Studies administrating new questionnaires, The PRIDE Study submits a WCG IRB modification that includes this new questionnaire once it is finalized.
 
 Regardless of the type of Ancillary Study, any external collaborators should consult their home institution(s) regarding local IRB requirements.
 

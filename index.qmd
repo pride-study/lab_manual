@@ -8,7 +8,7 @@ The [PRIDE Study](https://pridestudy.org/) at Stanford University is the first l
 
 This lab manual serves 4 purposes: 1) articulating our lab culture and philosophy, 2) outlining general policies that support our daily work, 3) documenting the design of The PRIDE Study, and 4) offering reference materials for reproducible research. The manual will evolve over time through contributions from lab members. Please send feedback to [Nguyen Tran](mailto:nktran@stanford.edu) or submit a pull request on our GitHub repository.
 
-The project was supported by the National Center for Advancing Translational Sciences of the National Institutes of Health under Award Number UM1TR004921. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health.
+The creation of this lab manual was supported by the National Center for Advancing Translational Sciences of the National Institutes of Health under Award Number UM1TR004921. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health.
 
 Development of this manual was inspired by the lab manual from the [Stanford Health Policy Data Science](https://stanfordhpds.github.io/lab_manual/) and the [Kiang Lab](https://kianglab.github.io/labmanual/).
 
