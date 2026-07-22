@@ -12,7 +12,7 @@ The PRIDE Study is an innovative, community-engaged, longitudinal cohort study o
 
 The PRIDE Study utilizes a state-of-the-art web-based research platform that enables robust participant recruitment, cohort management, real-time cohort statistics, survey administration, deployment of ancillary studies to specific cohort segments, and linkage with external health data sources.
 
-At the study's inception, participants who enrolled in 2017 were asked to complete an annual health questionnaire that included questions about social experiences and mental and physical health outcomes. Annual questionnaires are reviewed each year by The PRIDE Study team to ensure consistency of core demographic, social, and health questions while updated questions and response options to meet changing clinical criteria, shifts in terminology, evolving community needs, and emerging research priorities identified by our research team and the Participant Advisory Committee. This is further supplemented by a rotating set of periodic content and topics that allow us to collection data on specific health areas over time while balancing the burden of survey completion.
+At the study's inception, participants who enrolled in 2017 were asked to complete an annual health questionnaire that included questions about social experiences and mental and physical health outcomes. Annual questionnaires are reviewed each year by The PRIDE Study team to ensure consistency of core demographic, social, and health questions while updated questions and response options to meet changing clinical criteria, shifts in terminology, evolving community needs, and emerging research priorities identified by our research team and the Participant Advisory Committee. This is further supplemented by a rotating set of periodic content and topics that allow us to collect data on specific health areas over time while balancing the burden of survey completion.
 
 In 2019, The PRIDE Study began implementing a comprehensive lifetime questionnaire that captures participants' health and experiences across their lifespan. Participants enrolling from 2019 onward are first invited to complete the lifetime questionnaire before proceeding to the annual questionnaire for that administration period. Those who enrolled in 2017 and 2018 were asked to retrospectively complete the lifetime questionnaire when it became available.
 
@@ -40,7 +40,7 @@ All participants are invited to complete follow-up annual questionnaires, with e
 | 2025 Annual Questionnaire | 29 May 2025 | 01 Jun 2026 | Closed | [Codebook](https://www.dropbox.com/scl/fi/pcdv1e21uzm8ol8bkcsq3/2025-Annual-Questionnaire.pdf?rlkey=qn23dk6yqqfj372zk79dtr4u7&st=pq8jt778&dl=0) | 4,518 | 1,442 | 5,960 |
 | 2026 Annual Questionnaire | 08 Jun 2026 |  | Open |  |  |  |  |
 
-To date, \>17,000 participants have completed either version 1 or 2 of the lifetime questionnaire. In addition, \>16,000 participants have completed at least one annual questionnaire and \>11,000 have completed more than 1 annual questionnaire between 2017-2025.
+To date, \>17,000 participants have completed either version 1 or 2 of the lifetime questionnaire. In addition, \>16,000 participants have completed at least one annual questionnaire and \>11,000 have completed more than 1 annual questionnaire between 2017-2025 administration periods.
 
 ## Ancillary Study {#sec-anc-study}
 
