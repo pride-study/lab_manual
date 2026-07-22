@@ -27,7 +27,7 @@ All manuscripts using data from The PRIDE Study are required to be reviewed by T
 
 PRIDE requires at least 2 weeks to review manuscripts prior to initial journal submission and at least 1 week to review revisions requested by journals (revise and resubmit). While we recognize that extenuating circumstances may occasionally necessitate expedited review, collaborators are expected to plan proactively to ensure sufficient time for the PRIDE team to provide feedback and for collaborators to incorporate that feedback before submission deadlines.
 
-Once the paper has been submitted, please notify our [research team](mailto:research@pridestudy.org), addressing your email to our PRIDEnet Clinical Research Coordinator Associate, Ell Hundertmark, so that we can keep track of all paper submissions.
+Once the paper has been submitted, please notify our [research team](mailto:review@pridestudy.org), addressing your email to our PRIDEnet Clinical Research Coordinator Associate, Ell Hundertmark, so that we can keep track of all paper submissions.
 
 ### Acknowledgements
 
@@ -74,14 +74,14 @@ While not required, preprints are one possible option for investigators who are 
 
 In order to “close the loop” and return value to participants that have contributed their data to The PRIDE Study, we require that all investigators who publish their studies using The PRIDE Study data to complete a community-friendly summary of research findings as part of our [dissemination guidelines](https://www.dropbox.com/scl/fi/qknjgc18fqgp7vgxc8q7z/The-PRIDE-Study-Research-Dissemination-Plan_2019-12-06.pdf?rlkey=p4nepjqxn7eu5xoup7x4e2hkc&e=1&dl=0). This requirement reflects our commitment to community-based participatory research and ensures that LGBTQIA+ participants directly benefit from their involvement in the study. The community-friendly summary should be written in accessible, non-technical language that avoids jargon and clearly explains what the research found, why it matters, and how it might impact LGBTQIA+ health and wellbeing. This process is as follows:
 
-1.  **Notify The PRIDE Study Team.** Upon acceptance of the manuscript, contact our our [research team](mailto:research@pridestudy.org) and indicate our Program Management Director, Daniel Moretti, and our PRIDEnet Clinical Research Coordinator Associate, Ell Hundertmark, as the contact people, to notify us of the acceptance and initiate the research dissemination process.
+1.  **Notify The PRIDE Study Team.** Upon acceptance of the manuscript, contact our our [research team](mailto:review@pridestudy.org) and indicate our Program Management Director, Daniel Moretti, and our PRIDEnet Clinical Research Coordinator Associate, Ell Hundertmark, as the contact people, to notify us of the acceptance and initiate the research dissemination process.
 2.  **Complete Community-Friendly Summary.** The PRIDE Study team will send a template of the community-friendly summary to the first author for completion within 1 week. Along with the summary, we will request addition information including whether the paper will be open-access, NIH funding support details, anticipated publication date, and final article PDF and citation.  
 3.  **Collaborative Review and Editing**. Our team will review the summary and provide edits as needed to ensure that the language is accessible to participants.
 4.  **Dissemination.** Once the paper is published, the community-friendly summary will be shared with participants through our email listserv and posted on our website. Examples of previous summaries can be found on our [website](https://pridestudy.org/research).
 
 ## Conferences
 
-Any abstract submissions to conferences that use data from The PRIDE Study are required to be reviewed by The PRIDE Study prior to submission. The PRIDE Study requests at least 1 week in order to provide feedback. First authors of all abstracts should share their abstracts to all co-authors *via* email while copying [research team](mailto:research@pridestudy.org).
+Any abstract submissions to conferences that use data from The PRIDE Study are required to be reviewed by The PRIDE Study prior to submission. The PRIDE Study requests at least 1 week in order to provide feedback. First authors of all abstracts should share their abstracts to all co-authors *via* email while copying [research team](mailto:review@pridestudy.org).
 
 For trainees that are under the direct mentorship of one of The PRIDE Study co-directors, it is recommended that they reach out to their mentor with ample time in order to discuss funding options for the trip. 
 
