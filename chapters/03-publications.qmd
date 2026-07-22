@@ -79,7 +79,7 @@ In order to “close the loop” and return value to participants that have cont
 3.  **Collaborative Review and Editing**. Our team will review the summary and provide edits as needed to ensure that the language is accessible to participants.
 4.  **Dissemination.** Once the paper is published, the community-friendly summary will be shared with participants through our email listserv and posted on our website. Examples of previous summaries can be found on our [website](https://pridestudy.org/research).
 
-## Conferences
+## Conferences {#sec-conferences}
 
 Any abstract submissions to conferences that use data from The PRIDE Study are required to be reviewed by The PRIDE Study prior to submission. The PRIDE Study requests at least 1 week in order to provide feedback. First authors of all abstracts should share their abstracts to all co-authors *via* email while copying [research team](mailto:review@pridestudy.org).
 
