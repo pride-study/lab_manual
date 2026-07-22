@@ -14,7 +14,7 @@ Any information that contains participant identifiers should only be through sec
 
 PRIDE expects members of our team to manage their time and work, recognizing that people have different working styles, peak productivity hours, and personal commitments. We expect that lab members will manage their professional and research commitments accountably, demonstrating this through actions such as communicating time out of office or time conflicts or delays that come up related to their professional commitments. We prioritize outputs and impact over hours worked, and we support both remote work in-person work and flexible schedules when feasible.
 
-## Time Off and Sick Time
+## Staff Time Off and Sick Time
 
 ### Time Off (Vacation, PTO, and Floating Holiday) Requests {#sec-time-off}
 
@@ -86,6 +86,6 @@ Please read full details about sick time accruals, eligible situations to use si
 3.  If possible, employee sets up their out of office email reply, including who to reach out to with anything time sensitive
 4.  When the employee returns: 1) Turn off out of office email reply, 2) Document on: a) Asana (retroactively), b) timecard
 
-## Student and trainee time away
+## Student and Trainee Time Away
 
 PRIDE encourages students and trainees to take time off or away from research in line with academic schedules for rest and rejuvenation. We expect that students and trainees will communicate away time to the teams with which they work, and make arrangements for any needed coverage for their responsibilities. We understand that lab involvement will flex over time due to competing academic responsibilities and goals. We support the education and development of our trainees, and encourage trainees to communicate their needs to the staff, faculty, and other scholars with which they work. Likewise, we encourage trainees to rest and recuperate when they are recovering from illness.
