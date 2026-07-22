@@ -6,8 +6,8 @@ This section outlines the operational policies and practical guidelines that sup
 
 The lab uses multiple platforms for different types of communication, and choosing the appropriate channel helps ensure messages are seen and addressed in a timely manner. Email is usually the preferred for method of communication to team members in most cases. This may include detailed information that requires documentation, or messages involving people outside the lab. For complex discussions, brainstorming, or matters requiring nuanced conversation, we encourage in-person or video meetings rather than lengthy email. For time-sensitive requests or important messages, we ask the lab members that lab members respond within 24 hours. 
 
-::: callout-warning
-Any information that contains participant identifiers should only be through secure channels. This is typically limited to email that stays within Stanford systems with a subject line that has no participant information and says “Secure:” (including the “:”) within the subject line. See @sec-sec-data-store for more details. 
+::: callout-tip
+Any information that contains participant identifiers should only be through secure channels. This is typically limited to email that stays within Stanford systems with a subject line that has no participant information and says “Secure:” (including the “:”) within the subject line. See @sec-data-store for more details. 
 :::
 
 ## Working Hours {#sec-work-hour}
