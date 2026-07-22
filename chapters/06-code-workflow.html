@@ -213,7 +213,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#naming-things" id="toc-naming-things" class="nav-link" data-scroll-target="#naming-things"><span class="header-section-number">6.2</span> Naming Things</a></li>
   <li><a href="#project-organization" id="toc-project-organization" class="nav-link" data-scroll-target="#project-organization"><span class="header-section-number">6.3</span> Project Organization</a>
   <ul class="collapse">
-  <li><a href="#file-paths" id="toc-file-paths" class="nav-link" data-scroll-target="#file-paths"><span class="header-section-number">6.3.1</span> File Paths</a></li>
+  <li><a href="#sec-file-paths" id="toc-sec-file-paths" class="nav-link" data-scroll-target="#sec-file-paths"><span class="header-section-number">6.3.1</span> File Paths</a></li>
   <li><a href="#documentation" id="toc-documentation" class="nav-link" data-scroll-target="#documentation"><span class="header-section-number">6.3.2</span> Documentation</a></li>
   <li><a href="#readme" id="toc-readme" class="nav-link" data-scroll-target="#readme"><span class="header-section-number">6.3.3</span> README</a></li>
   <li><a href="#git-and-github" id="toc-git-and-github" class="nav-link" data-scroll-target="#git-and-github"><span class="header-section-number">6.3.4</span> Git and GitHub</a></li>
@@ -277,8 +277,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><code>my_project.Rproj</code></p>
 </blockquote>
 <p>The Kiang Lab also has a <a href="https://kianglab.github.io/labmanual/projectstructure.html">template</a> for setting new research projects, which includes an appendix that explains the reasoning behind the template.</p>
-<section id="file-paths" class="level3" data-number="6.3.1">
-<h3 data-number="6.3.1" class="anchored" data-anchor-id="file-paths"><span class="header-section-number">6.3.1</span> File Paths</h3>
+<section id="sec-file-paths" class="level3" data-number="6.3.1">
+<h3 data-number="6.3.1" class="anchored" data-anchor-id="sec-file-paths"><span class="header-section-number">6.3.1</span> File Paths</h3>
 <p>We recommend to not hardcode direct file paths that only exists on your computer:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>raw_df <span class="ot">=</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">"/users/ntran/Downloads/data.csv"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>Our preference is to use file paths that are relative to the root directory of your project. In R/RStudio, a root directory is automatically established when you create a new R project (<code>.Rproj</code> file); you can also create a new <code>.Rproj</code> file by linking it to an existing file directory. This project-based workflow organizes analyses into a self-contained folder. This enables seamless collaboration by allowing team members to access all project data using relative file paths, eliminating the need for hardcoded absolute paths that vary across different users’ systems.</p>
