@@ -6,9 +6,9 @@ LGBTQIA+ identities are multidimensional. This is reflected in how we collect in
 
 The PRIDE Study collects several measures that may be particularly relevant for LGBTQIA+ health research, depending on the specific research question:
 
-+--------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------+
++:-------------------+:---------------------------------------------------------------------------------------------------+:--------------------------------------------+
 | Variable           | Description                                                                                        | Current Availability                        |
-+====================+====================================================================================================+=============================================+
++:===================+:===================================================================================================+:============================================+
 | `GENDERID_*`       | -   Selection of one (or multiple) options that describes current gender identity.                 | -   2018-2025 annual questionnaires         |
 |                    | -   Each gender identity is represented in a separate column.                                      | -   Lifetime health and experiences survey  |
 +--------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------+
