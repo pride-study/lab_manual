@@ -20,7 +20,7 @@ In 2019, The PRIDE Study began implementing a comprehensive lifetime questionnai
 
 The PRIDE Study underwent another modification in 2023 and administered version 2 of the lifetime survey, which revised the survey content by moving specific questions previously found in the annual questionnaire to the lifetime survey. These questions were moved in response to either community feedback or internal assessment that indicated little to no variability in participants’ responses over time.
 
-All participants are invited to complete follow-up annual questionnaires, with each administration period running from May/June/July through May/June/July of the following year (see specific administration dates below). Annual questionnaire years correspond to the year that the questionnaire was first administered (e.g., Annual Questionnaire 2022 was first administered in June of 2022 and remained open through May of 2023).
+All participants are invited to complete follow-up annual questionnaires, with each administration period running from May/June/July through May/June/July of the following year (see specific administration dates below). Annual questionnaire years correspond to the year that the questionnaire was first administered (*e.g.*, Annual Questionnaire 2022 was first administered in June of 2022 and remained open through May of 2023).
 
 ## The PRIDE Study Metadata
 
