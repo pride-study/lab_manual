@@ -36,9 +36,9 @@ return(model)
 }
 
 # Messy pipe and argument alignment
-result <- data|>filter(age>18)|>
-select(id,age,sex)|>
-    mutate(adult=TRUE)
+result <- data|>dplyr::filter(age>18)|>
+dplyr::select(id,age,sex)|>
+    dplyr::mutate(adult=TRUE)
 ```
 
 #### After Styling
@@ -54,9 +54,9 @@ fit_model <- function(outcome, exposure, data) {
 
 # Clean pipe alignment and spacing
 result <- data |>
-  filter(age > 18) |>
-  select(id, age, sex) |>
-  mutate(adult = TRUE)
+  dplyr::filter(age > 18) |>
+  dplyr::select(id, age, sex) |>
+  dplyr::mutate(adult = TRUE)
 ```
 :::::
 
