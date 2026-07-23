@@ -6,41 +6,45 @@ LGBTQIA+ identities are multidimensional. This is reflected in how we collect in
 
 The PRIDE Study collects several measures that may be particularly relevant for LGBTQIA+ health research, depending on the specific research question:
 
-+--------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+
-| Variable           | Description                                                                                        | Availability                                                        |
-+====================+====================================================================================================+=====================================================================+
-| `GENDERID_*`       | -   Selection of one (or multiple) options that describes current gender identity.                 | -   All annual questionnaires                                       |
-|                    | -   Each gender identity is represented in a separate column.                                      | -   Lifetime health and experiences survey                          |
-+--------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+
-| `SELFBIN_GI`       | -   Selection of single option that best describe current gender identity.                         | -   All annual questionnaires                                       |
-|                    |                                                                                                    | -   Lifetime health and experiences survey                          |
-+--------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+
-| `SAAB`             | -   Sex assigned at birth, for example on original birth certificate.                              | -   All annual questionnaires (no longer asked as of 2026 period)   |
-|                    |                                                                                                    | -   Lifetime health and experiences survey                          |
-+--------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+
-| `INTERSEX`         | -   Self-identification as intersex.                                                               | -   All annual questionnaires                                       |
-|                    |                                                                                                    | -   Lifetime health and experiences survey                          |
-+--------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+
-| `SAAB_INTERSEX`    | -   Sex assigned at birth, for example on original birth certificate, indicate intersex.           | -   2023-2025 annual questionnaires                                 |
-+--------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+
-| `ORGANS_BORN_*`    | -   Selection of one (or multiple) options indicating the organs present at birth.                 | -   2018-2025 annual questionnaires                                 |
-|                    | -   Each response is represented in a separate column.                                             | -   Lifetime health and experiences survey                          |
-+--------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+
-| `ORGANS_NOW_*`     | -   Selection of one (or multiple) options indicating the organs currently present.                | -   2018-2025 annual questionnaires                                 |
-|                    | -   Each response is represented in a separate column.                                             | -   Lifetime health and experiences survey                          |
-+--------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+
-| `ORIENTATION_*`    | -   Selection of one (or multiple) options that describes current sexual orientation.              | -   All annual questionnaires                                       |
-|                    | -   Each sexual orientation is represented in a separate column.                                   | -   Lifetime health and experiences survey                          |
-+--------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+
-| `SELFBIN_SO`       | -   Selection of single option that best describe current sexual orientation.                      | -   All annual questionnaires                                       |
-|                    |                                                                                                    | -   Lifetime health and experiences survey                          |
-+--------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+
-| `ATTRACTION_ROM_*` | -   Selection of one (or multiple) options that describes current romantic feelings toward others. | -   2019-2025 annual questionnaires                                 |
-|                    | -   Each romantic attraction is represented in a separate column.                                  | -   Lifetime health and experiences survey                          |
-+--------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+
-| `ATTRACTION_SEX_*` | -   Selection of one (or multiple) options that describes current sexual attraction toward others. | -   2019-2025 annual questionnaires                                 |
-|                    | -   Each sexual attraction is represented in a separate column.                                    | -   Lifetime health and experiences survey                          |
-+--------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+
++--------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------+
+| Variable           | Description                                                                                        | Current Availability                        |
++====================+====================================================================================================+=============================================+
+| `GENDERID_*`       | -   Selection of one (or multiple) options that describes current gender identity.                 | -   2018-2025 annual questionnaires         |
+|                    | -   Each gender identity is represented in a separate column.                                      | -   Lifetime health and experiences survey  |
++--------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------+
+| `SELFBIN_GI`       | -   Selection of single option that best describe current gender identity.                         | -   2019-2025 annual questionnaires         |
+|                    |                                                                                                    | -   Lifetime health and experiences survey  |
++--------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------+
+| `SAAB`^a^          | -   Sex assigned at birth, for example on original birth certificate.                              | -   2018-2025 annual questionnaires         |
+|                    |                                                                                                    | -   Lifetime health and experiences survey  |
++--------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------+
+| `INTERSEX`         | -   Self-identification as intersex.                                                               | -   All annual questionnaires               |
+|                    |                                                                                                    | -   Lifetime health and experiences survey  |
++--------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------+
+| `SAAB_INTERSEX`    | -   Sex assigned at birth, for example on original birth certificate, indicate intersex.           | -   2023-2025 annual questionnaires         |
++--------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------+
+| `ORGANS_BORN_*`    | -   Selection of one (or multiple) options indicating the organs present at birth.                 | -   2018-2025 annual questionnaires         |
+|                    | -   Each response is represented in a separate column.                                             | -   Lifetime health and experiences survey  |
++--------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------+
+| `ORGANS_NOW_*`     | -   Selection of one (or multiple) options indicating the organs currently present.                | -   2018-2025 annual questionnaires         |
+|                    | -   Each response is represented in a separate column.                                             | -   Lifetime health and experiences survey  |
++--------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------+
+| `ORIENTATION_*`    | -   Selection of one (or multiple) options that describes current sexual orientation.              | -   2018-2025 annual questionnaires         |
+|                    | -   Each sexual orientation is represented in a separate column.                                   | -   Lifetime health and experiences survey  |
++--------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------+
+| `SELFBIN_SO`       | -   Selection of single option that best describe current sexual orientation.                      | -   2019-2025 annual questionnaires         |
+|                    |                                                                                                    | -   Lifetime health and experiences survey  |
++--------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------+
+| `ATTRACTION_ROM_*` | -   Selection of one (or multiple) options that describes current romantic feelings toward others. | -   2019-2025 annual questionnaires         |
+|                    | -   Each romantic attraction is represented in a separate column.                                  | -   Lifetime health and experiences survey  |
++--------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------+
+| `ATTRACTION_SEX_*` | -   Selection of one (or multiple) options that describes current sexual attraction toward others. | -   2019-2025 annual questionnaires         |
+|                    | -   Each sexual attraction is represented in a separate column.                                    | -   Lifetime health and experiences survey  |
++--------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------+
+
+: Sexual orientation and gender identity related variables in The PRIDE Study {#tbl-sogi}
+
+^a^ `SAAB` is no longer asked in the annual questionnaire as of the 2026 administration period.
 
 ## Recommended Analytic Strategy
 
