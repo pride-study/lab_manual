@@ -14,8 +14,6 @@ book:
     - chapters/07-lgbtqia-considerations.qmd
     - chapters/08-contact.qmd
 
-bibliography: references.bib
-
 format:
   html:
     theme: cosmo
