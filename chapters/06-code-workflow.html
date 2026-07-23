@@ -79,7 +79,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-82cb5808e81da3454e8042d903791e03.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-514c3c5c645fecdfd9acb6a6b9a944a6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -215,7 +215,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul class="collapse">
   <li><a href="#sec-file-paths" id="toc-sec-file-paths" class="nav-link" data-scroll-target="#sec-file-paths"><span class="header-section-number">6.3.1</span> File Paths</a></li>
   <li><a href="#documentation" id="toc-documentation" class="nav-link" data-scroll-target="#documentation"><span class="header-section-number">6.3.2</span> Documentation</a></li>
-  <li><a href="#readme" id="toc-readme" class="nav-link" data-scroll-target="#readme"><span class="header-section-number">6.3.3</span> README</a></li>
+  <li><a href="#sec-readme" id="toc-sec-readme" class="nav-link" data-scroll-target="#sec-readme"><span class="header-section-number">6.3.3</span> README</a></li>
   <li><a href="#git-and-github" id="toc-git-and-github" class="nav-link" data-scroll-target="#git-and-github"><span class="header-section-number">6.3.4</span> Git and GitHub</a></li>
   <li><a href="#code-review" id="toc-code-review" class="nav-link" data-scroll-target="#code-review"><span class="header-section-number">6.3.5</span> Code Review</a></li>
   </ul></li>
@@ -295,14 +295,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="naming-things" class="level2" data-number="6.2">
 <h2 data-number="6.2" class="anchored" data-anchor-id="naming-things"><span class="header-section-number">6.2</span> Naming Things</h2>
-<p>Naming things is an aspect of code style, but it merits a little extra attention because it is important to readability. In general, strive to make your code self-documenting, e.g., someone else should be able to read your code and understand what it’s doing without talking to you about it. Self-documenting is easier said than done, so code clearness is an essential type of feedback in code review.</p>
-<p>Use descriptive names for objects in code, e.g., <code>model_results</code> rather than <code>out</code> or <code>kangaroo_data</code> rather than <code>k</code>. However, we do not prefer overly long names (<em>e.g.</em>, three words is better than four or five). It’s OK to use terse names where the meaning is generally understood, like <code>n</code> for counts or <code>i</code> and <code>j</code> for loop counters.</p>
-<p>Similarly, for functions, describe what the function is doing, preferably in verb format, e.g., <code>simulate_data()</code> is better than <code>f()</code> or <code>data_simulator()</code>.</p>
+<p>Naming things is an aspect of code style, but it merits a little extra attention because it is important to readability. In general, strive to make your code self-documenting, <em>e.g.</em>, someone else should be able to read your code and understand what it’s doing without talking to you about it. Self-documenting is easier said than done, so code clearness is an essential type of feedback in code review.</p>
+<p>Use descriptive names for objects in code, e.g., <code>model_results</code> rather than <code>out</code> or <code>pride_data</code> rather than <code>d</code>. However, we suggest not to use overly long names (<em>e.g.</em>, three words is better than four or five). It is OK to use terse names where the meaning is generally understood, like <code>n</code> for counts or <code>i</code> and <code>j</code> for loop counters.</p>
+<p>Similarly, for functions, describe what the function is doing, preferably in verb format, <em>e.g.</em>, <code>simulate_data()</code> is better than <code>f()</code> or <code>data_simulator()</code>.</p>
 <p>We generally prefer <code>snake_case</code> over <code>camelCase</code> and other naming style conventions unless otherwise appropriate.</p>
 </section>
 <section id="project-organization" class="level2" data-number="6.3">
 <h2 data-number="6.3" class="anchored" data-anchor-id="project-organization"><span class="header-section-number">6.3</span> Project Organization</h2>
-<p>In general, we recommend using descriptive folder and file names, <em>e.g.</em>, <code>R/</code> or <code>scripts/</code> to organize source code and <code>output</code> or <code>reports</code> to organize research outputs. You should also include guidance on the organization of your project in a <code>README</code> (see section 6.4.1 for more details about <code>README</code> files).</p>
+<p>In general, we recommend using descriptive folder and file names, <em>e.g.</em>, <code>R/</code> or <code>scripts/</code> to organize source code and <code>output</code> or <code>reports</code> to organize research outputs. You should also include guidance on the organization of your project in a <code>README</code> (see <a href="#sec-readme" class="quarto-xref"><span>Section 6.3.3</span></a> for more details about <code>README</code> files).</p>
 <p>For example, an R project might look like this:</p>
 <blockquote class="blockquote">
 <p><code>code/</code></p>
@@ -332,8 +332,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>    )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>In R, the <code>#</code> is used to provide inline comments. We generally recommend putting inline comments go on their own line above the code they describe, not at the end of a line.</p>
 </section>
-<section id="readme" class="level3" data-number="6.3.3">
-<h3 data-number="6.3.3" class="anchored" data-anchor-id="readme"><span class="header-section-number">6.3.3</span> README</h3>
+<section id="sec-readme" class="level3" data-number="6.3.3">
+<h3 data-number="6.3.3" class="anchored" data-anchor-id="sec-readme"><span class="header-section-number">6.3.3</span> README</h3>
 <p>A <code>README</code> file serves as the primary documentation for your project, explaining its purpose, structure, and how to use it. We recommend including a <code>README</code> file for all research projects to provide collaborators and future users with essential context and guidance. In general, recommended <code>README</code> content should include at least:</p>
 <ul>
 <li>Project overview and objectives</li>
