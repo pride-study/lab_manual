@@ -8,17 +8,19 @@ Established in 2015, PRIDEnet is an extensive network of LGBTQIA+ community part
 
 ## THE PRIDE Study
 
-The PRIDE Study is an innovative, community-engaged, longitudinal cohort study of \>31,000 LGBTQIA+ adults across the U.S. Launched in 2017 with the support of PRIDEnet, the study employed diverse recruitment strategies including social media campaigns, digital advertisements, and partnerships with LGBTQIA+ community-based organizations and events. Eligible participants were 18 years of age or older, resided in the U.S. or its territories, self-identified as LGBTQIA+, and were able to read and understand English. All participants provided electronic informed consent prior to enrollment.
+The PRIDE Study is an innovative, community-engaged, longitudinal cohort study of \>31,000 LGBTQIA+ adults across the U.S. Launched in 2017 with the support of PRIDEnet, the study employed diverse recruitment strategies including social media campaigns, digital advertisements, and partnerships with LGBTQIA+ community-based organizations and events. Eligible participants were 18 years of age or older, resided in the U.S. or its territories, self-identified as LGBTQIA+, and were able to read and understand English. All participants provided electronic informed consent prior to enrollment. See @sec-lgbt-resources for key references for The PRIDE Study that describe the platform and community engagement methods. 
 
 The PRIDE Study utilizes a state-of-the-art web-based research platform that enables robust participant recruitment, cohort management, real-time cohort statistics, survey administration, deployment of ancillary studies to specific cohort segments, and linkage with external health data sources.
 
-At the study's inception, participants who enrolled in 2017 were asked to complete an annual health questionnaire that included questions about social experiences and mental and physical health outcomes. Annual questionnaires are reviewed each year by The PRIDE Study team to ensure consistency of core demographic, social, and health questions while updated questions and response options to meet changing clinical criteria, shifts in terminology, evolving community needs, and emerging research priorities identified by our research team and the Participant Advisory Committee. This is further supplemented by a rotating set of periodic content and topics that allow us to collect data on specific health areas over time while balancing the burden of survey completion.
+At the study's inception, participants who enrolled in 2017 were asked to complete an annual health questionnaire that included questions about social experiences and mental and physical health outcomes. Annual questionnaires are reviewed each year by The PRIDE Study team to ensure consistency of core demographic, social, and health questions. Questions and response options are updated to meet changing clinical criteria, shifts in terminology, community input, evolving community needs, and emerging research priorities identified by our research team and the Participant Advisory Committee. This is further supplemented by a rotating set of periodic content and topics that allow us to collect data on specific health areas over time while balancing the burden of survey completion.
 
-In 2019, The PRIDE Study began implementing a comprehensive lifetime questionnaire that captures participants' health and experiences across their lifespan. Participants enrolling from 2019 onward are first invited to complete the lifetime questionnaire before proceeding to the annual questionnaire for that administration period. Those who enrolled in 2017 and 2018 were asked to retrospectively complete the lifetime questionnaire when it became available.
+In 2018, the Annual Questionnaire was administered in two separate sections in order to reduce survey length: 1) the Core Annual Questionnaire (with the most important health outcomes), followed by the Annual Questionnaire Supplement (which included additional health topics of interest).
+
+In 2019, The PRIDE Study began implementing a comprehensive lifetime questionnaire that captures participants' health and experiences across their lifespan. Participants enrolling from 2019 onward are first invited to complete the lifetime questionnaire before proceeding to the annual questionnaire for that administration period. Those who enrolled in 2017 and 2018 were asked to complete the lifetime questionnaire when it became available.
 
 The PRIDE Study underwent another modification in 2023 and administered version 2 of the lifetime survey, which revised the survey content by moving specific questions previously found in the annual questionnaire to the lifetime survey. These questions were moved in response to either community feedback or internal assessment that indicated little to no variability in participants’ responses over time.
 
-All participants are invited to complete follow-up annual questionnaires, with each administration period running from May/June through May/June of the following year.
+All participants are invited to complete follow-up annual questionnaires, with each administration period running from May/June/July through May/June/July of the following year (see specific administration dates below). Annual questionnaire years correspond to the year that the questionnaire was first administered (e.g., Annual Questionnaire 2022 was first administered in June of 2022 and remained open through May of 2023).
 
 ## The PRIDE Study Metadata
 
@@ -46,16 +48,16 @@ To date, \>17,000 participants have completed either version 1 or 2 of the lifet
 
 Ancillary studies are research investigation conducted in collaboration with The PRIDE Study. The process was developed to encourage research to benefit LGBTQIA+ communities. There are generally 2 type of ancillary studies that can be proposed:
 
-1.  **New (primary) data collection:** Collection of new data via questionnaire to existing study participants.
+1.  **New (primary) data collection:** Collection of new data via questionnaire or other data collection methods (*e.g.*, qualitative interview) to existing study participants.
 2.  **Existing (secondary) data analysis:** Analysis of existing data from the Annual Questionnaire and/or Lifetime Survey.
 
-All collaborators (internal or external to PRIDE) who are interested in using already collected data from The PRIDE Study or are interested in collecting new data from participants in The PRIDE Study to conduct research focused on LGBTQIA+ populations are required to submit an ancillary study proposal. These proposal are subjected to review from both the research advisory committee and PRIDEnet participant advisory committee as shown in the flowchart below.
+All collaborators (internal or external to PRIDE) who are interested in using already collected data from The PRIDE Study or are interested in collecting new data from participants in The PRIDE Study to conduct research focused on LGBTQIA+ populations are required to submit an ancillary study proposal. These proposals are subjected to review from both the Research Advisory Committee and PRIDEnet Participant Advisory Committee as shown in the flowchart below.
 
 ![](/images/AS_process.png)
 
 Please visit [The PRIDE Study website](https://pridestudy.org/collaborate) for information on how to get started with the ancillary study process.
 
-## Resources
+## Resources {#sec-lgbt-resources}
 
 -   Lunn MR, Lubensky M, Hunt C, Flentje A, Capriotti MR, Sooksaman C, Harnett T, Currie D, Neal C, Obedin-Maliver J. A digital health research platform for community engagement, recruitment, and retention of sexual and gender minority adults in a national longitudinal cohort study--The PRIDE Study. *J Am Med Inform Assoc*. 2019 Aug 1;26(8-9):737-748. doi: [10.1093/jamia/ocz082](https://doi.org/10.1093/jamia/ocz082).
 

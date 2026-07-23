@@ -4,7 +4,7 @@ LGBTQIA+ identities are multidimensional. This is reflected in how we collect in
 
 ## Measures of Gender, Sex, and Sexuality
 
-The PRIDE Study collects several measures may be particularly relevant for LGBTQIA+ health research, depending on the specific research question:
+The PRIDE Study collects several measures that may be particularly relevant for LGBTQIA+ health research, depending on the specific research question:
 
 +--------------------+----------------------------------------------------------------------------------------------------+--------------------------------------------+
 | Variable           | Description                                                                                        | Availability                               |
@@ -22,6 +22,7 @@ The PRIDE Study collects several measures may be particularly relevant for LGBTQ
 |                    |                                                                                                    | -   Lifetime health and experiences survey |
 +--------------------+----------------------------------------------------------------------------------------------------+--------------------------------------------+
 | `SAAB_INTERSEX`    | -   Sex assigned a birth, for example on original birth certificate, indicate intersex.            | -   2023-2025 annual questionnaires        |
+|                    |                                                                                                    | -   SAAB is no longer being asked in the annual questionnaire as of 2026 |
 +--------------------+----------------------------------------------------------------------------------------------------+--------------------------------------------+
 | `ORGANS_BORN_*`    | -   Selection of one (or multiple) options indicating the organs present at birth.                 | -   2018-2025 annual questionnaires        |
 |                    | -   Each response is represented in a separate column.                                             | -   Lifetime health and experiences survey |

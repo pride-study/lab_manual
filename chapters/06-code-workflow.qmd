@@ -21,11 +21,50 @@ Note that you should run styler interactively in the console, not in one of your
 
 Styler also has a helpful add-in for RStudio to let you style the active file, a code selection, etc.
 
+`styler` automatically reformats code without changing its behavior. Here are some common examples:
+
+::::: panel-tabset
+#### Before Styling
+
+``` r
+# Inconsistent spacing and indentation
+fit_model<-function(outcome,exposure,data){
+predictors<-c(exposure)
+formula<-as.formula(paste(outcome,"~",exposure))
+model<-lm(formula,data=data)
+return(model)
+}
+
+# Messy pipe and argument alignment
+result <- data|>filter(age>18)|>
+select(id,age,sex)|>
+    mutate(adult=TRUE)
+```
+
+#### After Styling
+
+``` r
+# Consistent 2-space indentation and spacing around operators
+fit_model <- function(outcome, exposure, data) {
+  predictors <- c(exposure)
+  formula <- as.formula(paste(outcome, "~", exposure))
+  model <- lm(formula, data = data)
+  return(model)
+}
+
+# Clean pipe alignment and spacing
+result <- data |>
+  filter(age > 18) |>
+  select(id, age, sex) |>
+  mutate(adult = TRUE)
+```
+:::::
+
 ## Naming Things
 
 Naming things is an aspect of code style, but it merits a little extra attention because it is important to readability. In general, strive to make your code self-documenting, e.g., someone else should be able to read your code and understand what it’s doing without talking to you about it. Self-documenting is easier said than done, so code clearness is an essential type of feedback in code review.
 
-Use descriptive names for objects in code, e.g., `model_results` rather than `out` or `kangaroo_data` rather than `k`. However, do note prefer overly long names (*e.g.*, three words is better than four or five). It’s OK to use terse names where the meaning is generally understood, like `n` for counts or `i` and `j` for loop counters.
+Use descriptive names for objects in code, e.g., `model_results` rather than `out` or `kangaroo_data` rather than `k`. However, we do not prefer overly long names (*e.g.*, three words is better than four or five). It’s OK to use terse names where the meaning is generally understood, like `n` for counts or `i` and `j` for loop counters.
 
 Similarly, for functions, describe what the function is doing, preferably in verb format, e.g., `simulate_data()` is better than `f()` or `data_simulator()`.
 
@@ -51,7 +90,7 @@ The Kiang Lab also has a [template](https://kianglab.github.io/labmanual/project
 
 ### File Paths {#sec-file-paths}
 
-We recommend to not hardcode direct file paths that only exists on your computer:
+We recommend to not hardcode direct file paths that only exist on your computer:
 
 ``` r
 raw_df = readr::read_csv("/users/ntran/Downloads/data.csv")
@@ -93,7 +132,7 @@ A `README` file serves as the primary documentation for your project, explaining
 
 ### Git and GitHub
 
-Our team uses Git and GitHub for managing and hosting version-controlled repositories for our research projects. This effort is led and managed by our biostatistician, Nguyen Tran. For external collaborators whose analyses by our internal team and are interested in making the code publicly available, please contact Nguyen Tran to initiate this process as outlined in @sec-code-data-share.
+Our team uses Git and GitHub for managing and hosting version-controlled repositories for our research projects. This effort is led and managed by our biostatistician, Nguyen Tran. For external collaborators whose analyses were conducted by our internal team and are interested in making the code publicly available, please contact Nguyen Tran to initiate this process as outlined in @sec-code-data-share.
 
 Our team does not require new members or trainees to have prior experience with Git and GitHub. We recognize that these tools may be unfamiliar to many researchers. We encourage developing these skills over time as version control is essential for reproducible research and effective collaboration. Trainees who are interested in learning more about Git and GitHub, Nguyen Tran is available to guide you through the process. This includes helping with creating your personal GitHub account, setting up repositories, learning essential git commands, understanding our project documentation standards, and eventually transferring your work to The PRIDE Study GitHub.
 
@@ -109,7 +148,7 @@ All data shared by The PRIDE Study must be stored securely (see @sec-data-store 
 
 Code review is a collaborative practice where team members examine each other's code before it is finalized or published. This process can be helpful for ensuring the quality and reproducibility of our research.
 
-Trainees or external collaborators working with PRIDE Study data who would like code review should contact Nguyen Tran in advance to arrange this. Our preference is that code reviews are done through GitHub using a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests). However, for those not familiar with GitHub, please share your code and documentation through a secure file sharing platform (Box or Dropbox), along with a brief description of your analysis objectives and any specific areas where you would like feedback. Please ensure that no participant identifiers are shared during this process. Data sharing can be helpful but is not necessary for code review.
+For trainees or external collaborators working with PRIDE Study data who would like code review should contact Nguyen Tran in advance to arrange this. Our preference is that code reviews are done through GitHub using a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests). However, for those not familiar with GitHub, please share your code and documentation through a secure file sharing platform (Box or Dropbox), along with a brief description of your analysis objectives and any specific areas where you would like feedback. Please ensure that no participant identifiers are shared during this process. Data sharing can be helpful but is not necessary for code review.
 
 ## Script Templates for Reproducible Analysis
 
