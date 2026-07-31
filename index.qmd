@@ -1,10 +1,10 @@
 # Lab Manual {.unnumbered}
 
-The [PRIDE Study](https://pridestudy.org/) at Stanford University is the first large-scale, long-term, community-engaged national health study of people who identify as lesbian, gay, bisexual, transgender, queer, intersex, asexual, or another sexual or gender minority (LGBTQIA+). The PRIDE team an interdisciplinary group of clinicians, scientists, and research staff who are dedicated to addressing critical social injustices and health challenges facing LGBTQIA+ populations. The co-directors of The PRIDE Study are:
+The [PRIDE Study](https://pridestudy.org/) at Stanford University is the first large-scale, long-term, community-engaged, national health study of adults who identify as lesbian, gay, bisexual, transgender, queer, intersex, asexual, or another sexual or gender minority (LGBTQIA+). The PRIDE team an interdisciplinary group of clinicians, scientists, and research staff who are dedicated to addressing critical social injustices and health challenges facing LGBTQIA+ populations. The co-directors of The PRIDE Study are:
 
-1.  Dr. [Annesa Flentje](https://profiles.stanford.edu/annesa-flentje), PhD
-2.  Dr. [Mitchell R. Lunn](https://profiles.stanford.edu/lunn), MD, MAS
-3.  Dr. [Juno Obedin-Maliver](https://profiles.stanford.edu/juno-obedin-maliver), MD, MPH, MAS
+1.  [Annesa Flentje](https://profiles.stanford.edu/annesa-flentje), PhD
+2.  [Mitchell R. Lunn](https://profiles.stanford.edu/lunn), MD, MAS
+3.  [Juno Obedin-Maliver](https://profiles.stanford.edu/juno-obedin-maliver), MD, MPH, MAS
 
 This lab manual serves 4 purposes: 1) articulating our lab culture and philosophy, 2) outlining general policies that support our daily work, 3) documenting the design of The PRIDE Study, and 4) offering reference materials for reproducible research. The manual will evolve over time through contributions from lab members. Please send feedback to [Nguyen Tran](mailto:nktran@stanford.edu) or submit a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) on our [GitHub repository](https://github.com/pride-study/lab_manual.git).
 

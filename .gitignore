@@ -1,6 +1,7 @@
 /.quarto/
 .Rproj.user
 _book/
+.DS_Store
 
 # History files
 .Rhistory

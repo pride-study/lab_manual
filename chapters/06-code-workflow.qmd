@@ -1,12 +1,12 @@
 # Code Workflow for Reproducible Research {#sec-code-workflow}
 
-Coding is difficult! There are many ways to code something that will achieve the same goal. Our general philosophy at PRIDE is based on a general set of coding principles and workflows that are broadly applicable across coding languages and integrated development environments. We recognize the need for transparent and reproducible science while ensuring that we protect the data privacy of LGBTQIA+ participants at The PRIDE Study. We also note that this is a living document: we can update as the team and coding philosophy change over time.
+Coding is difficult! There are many ways to code something that will achieve the same goal. Our general philosophy at PRIDE is based on a general set of coding principles and workflows that are broadly applicable across coding languages and integrated development environments. We recognize the need for transparent and reproducible science while ensuring that we protect the data privacy of LGBTQIA+ participants at The PRIDE Study. We also note that this is a living document, which we will update as the team and coding philosophy change over time.
 
-We focus on providing general recommendations and scripts that allow individual members at PRIDE to code how they prefer while maintaining reproducibility, ease of collaboration, and data privacy of participants. We do not tell our team members which language to use or, for the most part, which tools to use within a given language. For those interested in specific recommendations, we suggests reading the works of Van Lissa et al. (2021)<sup>[1](#sec-repo2-resources)</sup> or the accompanying [vignette](https://cjvanlissa.github.io/worcs/index.html). 
+We focus on providing general recommendations and scripts that allow individual members at PRIDE to code how they prefer while maintaining reproducibility, ease of collaboration, and data privacy of participants. We do not tell our team members which language to use, or for the most part, which tools to use within a given language. For those interested in specific recommendations, we suggest reading the works of Van Lissa *et al*. (2021)<sup>[1](#sec-repo2-resources)</sup> or the accompanying [vignette](https://cjvanlissa.github.io/worcs/index.html). 
 
-Currently, our team can support workflows in R with more limited support for Python. Thus, we offer guidance specifically in R. We’ll add relevant recommendations if other languages become more prominent in the team
+Currently, our team can support workflows in R with more limited support for Python. Thus, we offer guidance specifically in R. We will add relevant recommendations if other languages become more prominent in the team
 
-We use R as our primary programming language. It has excellent tools for statistical analysis, visualization, and reproducible research. Here is a brief summary of our approach.
+We use R as our primary programming language. It has excellent tools for statistical analysis, visualization, and reproducible research. This chapter provides a brief summary of our approach.
 
 ## Code Style and Standard
 
@@ -62,17 +62,17 @@ result <- data |>
 
 ## Naming Things
 
-Naming things is an aspect of code style, but it merits a little extra attention because it is important to readability. In general, strive to make your code self-documenting, *e.g.*, someone else should be able to read your code and understand what it’s doing without talking to you about it. Self-documenting is easier said than done, so code clearness is an essential type of feedback in code review.
+Naming things is an aspect of code style, but it merits a little extra attention because it is important for readability. In general, strive to make your code self-documenting; someone else should be able to read your code and understand what it’s doing without talking to you about it. Self-documenting is easier said than done, so code clearness is an essential type of feedback in code review.
 
 Use descriptive names for objects in code, e.g., `model_results` rather than `out` or `pride_data` rather than `d`. However, we suggest not to use overly long names (*e.g.*, three words is better than four or five). It is OK to use terse names where the meaning is generally understood, like `n` for counts or `i` and `j` for loop counters.
 
 Similarly, for functions, describe what the function is doing, preferably in verb format, *e.g.*, `simulate_data()` is better than `f()` or `data_simulator()`.
 
-We generally prefer `snake_case` over `camelCase` and other naming style conventions unless otherwise appropriate.
+We generally prefer `snake_case` over `camelCase` and other naming style conventions unless otherwise appropriate. In `snake_case`, words are written in lowercase and separated by underscores (*e.g.*, participant_id, birth_date), whereas in `camelCase`, words are joined together with the first word in lowercase and each subsequent word capitalized (*e.g.*, participantId, birthDate).
 
 ## Project Organization
 
-In general, we recommend using descriptive folder and file names, *e.g.*, `R/` or `scripts/` to organize source code and `output` or `reports` to organize research outputs. You should also include guidance on the organization of your project in a `README` (see @sec-readme for more details about `README` files).
+In general, we recommend using descriptive folder and file names, *e.g.*, `R/` or `scripts/` to organize source code and `output` or `reports` to organize research outputs. You should also include guidance on the organization of your project in a `README` file (see @sec-readme for more details about `README` files).
 
 For example, an R project might look like this:
 
@@ -120,7 +120,7 @@ clean_df <- raw_df |>
     )
 ```
 
-In R, the `#` is used to provide inline comments. We generally recommend putting inline comments go on their own line above the code they describe, not at the end of a line.
+In R, the `#` is used to provide inline comments. We generally recommend putting inline comments on their own line above the code they describe, not at the end of a line.
 
 ### README {#sec-readme}
 
@@ -132,14 +132,14 @@ A `README` file serves as the primary documentation for your project, explaining
 
 ### Git and GitHub
 
-Our team uses Git and GitHub for managing and hosting version-controlled repositories for our research projects. This effort is led and managed by our biostatistician, Nguyen Tran. For external collaborators whose analyses were conducted by our internal team and are interested in making the code publicly available, please contact Nguyen Tran to initiate this process as outlined in @sec-code-data-share.
+Git is a version control system that tracks changes to files over time, allowing multiple people to collaborate on a project while maintaining a complete history of edits. GitHub is a web-based platform that hosts Git repositories online, providing tools for collaboration, code review, and project management. Our team uses Git and GitHub for managing and hosting version-controlled repositories for our research projects. This effort is led and managed by our biostatistician, Nguyen Tran. For external collaborators whose analyses were conducted by our internal team and are interested in making the code publicly available, please contact Nguyen Tran to initiate this process as outlined in @sec-code-data-share.
 
 Our team does not require new members or trainees to have prior experience with Git and GitHub. We recognize that these tools may be unfamiliar to many researchers. We encourage developing these skills over time as version control is essential for reproducible research and effective collaboration. For trainees who are interested in learning more about Git and GitHub, Nguyen Tran is available to guide you through the process. This includes helping with creating your personal GitHub account, setting up repositories, learning essential git commands, understanding our project documentation standards, and eventually transferring your work to The PRIDE Study GitHub.
 
-There are also several other labs at Stanford provide introductory guidance to Git and GitHub such as the [Kiang Lab](https://kianglab.github.io/labmanual/projectstructure.html#projectstructure-git) and [Stanford Health Policy and Data Science](https://stanfordhpds.github.io/lab_manual/chapters/08-code-workflow-agreements.html#sec-git-github). We also recommend the paper by Van Lissa et al. (2021)<sup>[1](#sec-repo2-resources)</sup> for a coding workflow for reproducible science. 
+There are also several other labs at Stanford provide introductory guidance to Git and GitHub such as the [Kiang Lab](https://kianglab.github.io/labmanual/projectstructure.html#projectstructure-git) and [Stanford Health Policy and Data Science](https://stanfordhpds.github.io/lab_manual/chapters/08-code-workflow-agreements.html#sec-git-github). We also recommend the paper by Van Lissa *et al*. (2021)<sup>[1](#sec-repo2-resources)</sup> for a coding workflow for reproducible science. 
 
 ::: callout-warning
-In general, we urge trainees and collaborators not to upload any data from The PRIDE Study onto GitHub as part of their workflow, whether original or generated during analysis. **Making data available through a public GitHub repository is prohibited under our data use agreement and violates our data privacy policies.** Even if the repository is private and [.gitignore](https://docs.github.com/en/get-started/git-basics/ignoring-files) is used to prevent uploading sensitive data to GitHub, this is not foolproof (see [UK BioBank data leak](https://www.theguardian.com/science/2026/mar/14/confidential-health-records-exposed-online-uk-biobank)). 
+In general, we require trainees and collaborators to never upload any data from The PRIDE Study onto GitHub as part of their workflow, whether original data or data generated during analysis. **Making data available through a public GitHub repository is prohibited under our data use agreement and violates our data privacy policies.** Even if the repository is private and [.gitignore](https://docs.github.com/en/get-started/git-basics/ignoring-files) is used to prevent uploading sensitive data to GitHub, this is not foolproof (see [UK BioBank data leak](https://www.theguardian.com/science/2026/mar/14/confidential-health-records-exposed-online-uk-biobank)). 
 
 All data shared by The PRIDE Study must be stored securely (see @sec-data-store for examples). If you wish to share data, we recommend either generating a synthetic dataset with similar characteristics to the original data using `worcs::synthetic()` or using the recommended data availability statement in @sec-code-data-share for your paper submission. 
 :::
@@ -148,7 +148,7 @@ All data shared by The PRIDE Study must be stored securely (see @sec-data-store 
 
 Code review is a collaborative practice where team members examine each other's code before it is finalized or published. This process can be helpful for ensuring the quality and reproducibility of our research.
 
-Trainees or external collaborators working with PRIDE Study data who would like code review should contact Nguyen Tran in advance to arrange this. Our preference is that code reviews are done through GitHub using a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests). However, for those not familiar with GitHub, please share your code and documentation through a secure file sharing platform (Box, Dropbox, Google Drive), along with a brief description of your analysis objectives and any specific areas where you would like feedback. Please ensure that no participant identifiers are shared during this process. Data sharing can be helpful but is not necessary for code review.
+Trainees or external collaborators working with PRIDE Study data who would like code review should contact Nguyen Tran in advance to arrange this. Our preference is that code reviews are done through GitHub using a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests). However, for those not familiar with GitHub, please share your code and documentation through a secure file sharing platform (Box, Dropbox, Google Drive) along with a brief description of your analysis objectives and any specific areas where you would like feedback. Please ensure that no participant identifiers are shared during this process. Data sharing can be helpful but is not necessary for code review.
 
 ## Script Templates for Reproducible Analysis
 

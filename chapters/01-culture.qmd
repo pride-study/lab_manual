@@ -6,7 +6,7 @@ Every lab member is valued first and foremost as a whole person. We are committe
 
 ## Community Engagement {#sec-engagement}
 
-Our work is grounded in a commitment to community partnerships and social justice. We recognize that meaningful research cannot happen without the communities we serve. We are committed to engaging LGBTQIA+ community members as partners in all stages of research, ensuring our research questions reflect community priorities and needs, translating findings into accessible formats and sharing results with participants and communities, and centering the voices and lived experiences of those most affected by health inequities.
+Our work is grounded in a commitment to community partnerships and social justice. We recognize that meaningful research cannot happen without the communities we serve. We are committed to engaging LGBTQIA+ community members as partners in all stages of research, ensuring our research questions reflect community priorities and needs, translating findings into accessible formats, sharing results with participants and communities, and centering the voices and lived experiences of those most affected by health inequities.
 
 ## Collaboration and Mentorship {#sec-collaboration}
 
@@ -14,4 +14,4 @@ We believe the most impactful research happens through interdisciplinary collabo
 
 ## Research Ethics and Data Privacy {#sec-ethics-privacy}
 
-We handle participant data with the utmost care and respect for privacy, and we consider the ethical implications of our research questions, methods, and dissemination. All PRIDE Study data is protected under a certificate of confidentiality that prevents investigators from being forced to disclose identifying information in legal, federal, or state proceedings. 
+We handle participant data with the utmost care and respect for privacy, and we consider the ethical implications of our research questions, methods, and dissemination. All PRIDE Study data is protected under a certificate of confidentiality that prevents investigators and Stanford University from being forced to disclose identifying research data in federal, state, or local civil, criminal, administrative, legislative, or other proceedings.
