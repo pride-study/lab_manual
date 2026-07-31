@@ -26,7 +26,7 @@ All participants are invited to complete follow-up annual questionnaires, with e
 
 ## The PRIDE Study Metadata
 
-**Cookbooks:** These are comprehensive PDFs of questions and answer combinations (including logic flows) in The PRIDE Study questionnaire from Qualtrics --- an online survey platform used to design, distribute, and collect responses to questionnaires. In The PRIDE Study, Qualtrics was used to administer questionnaires to participants, using branching logic to display relevant questions based on each participant's demographic characteristics, prior responses, health history, *etc*.
+**Codebooks:** These are comprehensive PDFs of questions and answer combinations (including logic flows) in The PRIDE Study questionnaire from Qualtrics --- an online survey platform used to design, distribute, and collect responses to questionnaires. In The PRIDE Study, Qualtrics was used to administer questionnaires to participants, using branching logic to display relevant questions based on each participant's demographic characteristics, prior responses, health history, *etc*.
 
 | Survey Name | Open Date | Close Date | Status | Codebook | Completed Response | Partial Responses | Total Responses |
 |---------|---------|---------|---------|---------|---------|---------|---------|
