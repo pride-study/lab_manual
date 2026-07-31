@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -41,10 +44,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-82cb5808e81da3454e8042d903791e03.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-343830dee7e81009abd9657442190b55.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -155,7 +158,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/07-lgbtqia-considerations.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">LGBTQIA+ Specific Analytic Considerations</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">LGBTQIA+-Specific Analytic Considerations</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -206,7 +209,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Every lab member is valued first and foremost as a whole person. We are committed to understanding and supporting each individual’s unique career aspirations, personal circumstances, and professional development goals. We recognize that our best work happens when people feel safe, respected, and empowered to bring their full selves to the research process. We are committed to an environment that is free from discrimination and harassment.</p>
 <section id="sec-engagement" class="level2" data-number="1.1">
 <h2 data-number="1.1" class="anchored" data-anchor-id="sec-engagement"><span class="header-section-number">1.1</span> Community Engagement</h2>
-<p>Our work is grounded in a commitment to community partnerships and social justice. We recognize that meaningful research cannot happen without the communities we serve. We are committed to engaging LGBTQIA+ community members as partners in all stages of research, ensuring our research questions reflect community priorities and needs, translating findings into accessible formats and sharing results with participants and communities, and centering the voices and lived experiences of those most affected by health inequities.</p>
+<p>Our work is grounded in a commitment to community partnerships and social justice. We recognize that meaningful research cannot happen without the communities we serve. We are committed to engaging LGBTQIA+ community members as partners in all stages of research, ensuring our research questions reflect community priorities and needs, translating findings into accessible formats, sharing results with participants and communities, and centering the voices and lived experiences of those most affected by health inequities.</p>
 </section>
 <section id="sec-collaboration" class="level2" data-number="1.2">
 <h2 data-number="1.2" class="anchored" data-anchor-id="sec-collaboration"><span class="header-section-number">1.2</span> Collaboration and Mentorship</h2>
@@ -214,7 +217,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="sec-ethics-privacy" class="level2" data-number="1.3">
 <h2 data-number="1.3" class="anchored" data-anchor-id="sec-ethics-privacy"><span class="header-section-number">1.3</span> Research Ethics and Data Privacy</h2>
-<p>We handle participant data with the utmost care and respect for privacy, and we consider the ethical implications of our research questions, methods, and dissemination. All PRIDE Study data is protected under a certificate of confidentiality that prevents investigators from being forced to disclose identifying information in legal, federal, or state proceedings.</p>
+<p>We handle participant data with the utmost care and respect for privacy, and we consider the ethical implications of our research questions, methods, and dissemination. All PRIDE Study data is protected under a certificate of confidentiality that prevents investigators and Stanford University from being forced to disclose identifying research data in federal, state, or local civil, criminal, administrative, legislative, or other proceedings.</p>
 
 
 </section>
@@ -307,6 +310,11 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -40,10 +43,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-82cb5808e81da3454e8042d903791e03.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-343830dee7e81009abd9657442190b55.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -154,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/07-lgbtqia-considerations.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">LGBTQIA+ Specific Analytic Considerations</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">LGBTQIA+-Specific Analytic Considerations</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -196,7 +199,7 @@ ul.task-list li input[type="checkbox"] {
 <p>We are a small but mighty team dedicated to supporting investigators using The PRIDE Study data! We strive to provide responsive assistance throughout your research journey, from initial data requests to manuscript preparation and community dissemination. Please do not hesitate to reach out with questions. We are here to help ensure your research is successful and benefits the LGBTQIA+ communities we serve. Below are key team members and their areas of expertise to help direct your inquiries:</p>
 <p>If you are a new investigator and interested in collaborating with The PRIDE Study, please reach us at: <a href="mailto:research@pridestudy.org">research@pridestudy.org</a>. For specific inquiries, please review the information below for the relevant contact and their contact information.</p>
 <table class="caption-top table">
-<caption>Requires specific information about The PRIDE Study, Ancillary Study Inquiry, Trainees under direct supervision, Grant application</caption>
+<caption>Specific information about The PRIDE Study, Ancillary Study inquiries, Trainees under direct supervision, Funding applications</caption>
 <thead>
 <tr class="header">
 <th>Name</th>
@@ -343,6 +346,11 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -658,8 +666,8 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../chapters/07-lgbtqia-considerations.html" class="pagination-link" aria-label="LGBTQIA+ Specific Analytic Considerations">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">LGBTQIA+ Specific Analytic Considerations</span></span>
+      <a href="../chapters/07-lgbtqia-considerations.html" class="pagination-link" aria-label="LGBTQIA+-Specific Analytic Considerations">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">LGBTQIA+-Specific Analytic Considerations</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
