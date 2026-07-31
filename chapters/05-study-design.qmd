@@ -8,7 +8,9 @@ Established in 2015, PRIDEnet is an extensive network of LGBTQIA+ community part
 
 ## The PRIDE Study
 
-The PRIDE Study is an innovative, community-engaged, longitudinal cohort study of \>31,000 LGBTQIA+ adults across the U.S. Launched in 2017 with the support of PRIDEnet, the study employed diverse recruitment strategies including social media campaigns, digital advertisements, and partnerships with LGBTQIA+ community-based organizations and events. Eligible participants are 18 years of age or older, resided in the U.S. or its territories, self-identify as LGBTQIA+, and are able to read and understand English. All participants provide electronic informed consent prior to enrollment. See @sec-lgbt-resources for key references for The PRIDE Study that describe the platform and community engagement methods. 
+The PRIDE Study is an innovative, community-engaged, longitudinal cohort study of \>31,000 LGBTQIA+ adults across the U.S. It began as an iPhone mobile application pilot from 2015 to 2017. The primary goal of this pilot was to gather participant feedback that would later shape the specifications of the digital research platform. This included revising demographic questions to be more participant-centered, reordering survey items to ensure recognition of diverse identities, and adding the ability for participants to edit their profile information as names and identities can change within LGBTQIA+ communities.
+
+In 2017, with the support of PRIDEnet, The PRIDE Study launched the participant platform ([pridestudy.org](https://pridestudy.org/)) for community engagement and study recruiment. The study employed diverse recruitment strategies including social media campaigns, digital advertisements, and partnerships with LGBTQIA+ community-based organizations and events. Eligible participants are 18 years of age or older, resided in the U.S. or its territories, self-identify as LGBTQIA+, and are able to read and understand English. All participants provide electronic informed consent prior to enrollment. See @sec-lgbt-resources for key references for The PRIDE Study that describe the platform and community engagement methods. 
 
 The PRIDE Study utilizes a state-of-the-art web-based research platform that enables robust participant recruitment, cohort management, real-time cohort statistics, survey administration, deployment of ancillary studies to specific cohort segments, and linkage with external health data sources.
 
@@ -58,6 +60,8 @@ All collaborators (internal or external to PRIDE) who are interested in using al
 Please visit [The PRIDE Study website](https://pridestudy.org/collaborate) for information on how to get started with the ancillary study process.
 
 ## Resources {#sec-lgbt-resources}
+
+-   Lunn MR, Capriotti MR, Flentje A, Bibbins-Domingo K, Pletcher MJ, Triano AJ, Sooksaman C, Frazier J, Obedin-Maliver J. Using mobile technology to engage sexual and gender minorities in clinical research. *PLoS One*. 2019 May 2;14(5):e0216282. doi: [10.1371/journal.pone.0216282](https://doi.org/10.1371/journal.pone.0216282).
 
 -   Lunn MR, Lubensky M, Hunt C, Flentje A, Capriotti MR, Sooksaman C, Harnett T, Currie D, Neal C, Obedin-Maliver J. A digital health research platform for community engagement, recruitment, and retention of sexual and gender minority adults in a national longitudinal cohort study--The PRIDE Study. *J Am Med Inform Assoc*. 2019 Aug 1;26(8-9):737-748. doi: [10.1093/jamia/ocz082](https://doi.org/10.1093/jamia/ocz082).
 
