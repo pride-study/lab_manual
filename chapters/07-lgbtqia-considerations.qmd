@@ -48,7 +48,7 @@ The PRIDE Study collects several measures that may be particularly relevant for 
 
 ## Recommended Analytic Strategy
 
-While no single approach fits all research questions, we offer a few key considerations to guide your analytic decisions when working with The PRIDE Study data.
+While no single approach fits all research questions, we offer a few key considerations to guide your analytic decisions when working with The PRIDE Study data. 
 
 Our approach to including measures of gender, sex, and sexuality balances two essential priorities: representing the diverse identities of PRIDE Study participants while capturing the constructs most relevant to specific research questions. We achieve this balance through a two-part strategy.
 
@@ -77,3 +77,7 @@ For specific research questions, we operationalize measures of gender, sex, and 
 7.  Tate CC, Ledbetter JN, Youssef CP. A two-question method for assessing gender categories in the social and medical sciences. *J Sex Res*. 2013;50(8):767-76. doi: [10.1080/00224499.2012.690110](https://doi.org/10.1080/00224499.2012.690110).
 
 8.  Tordoff DM, Minalga B, Catháin NÓ, Fernandez A, Gross B, Glick SN; The Seattle Trans and Nonbinary Sexual Health (STARS) Advisory Board. Comparing two-step approaches to measuring gender identity: the reliability and applications of asking about sex assigned at birth vs transgender self-identification. *Am J Epidemiol*. 2025 May 7;194(5):1255-1263. doi: [10.1093/aje/kwae341](https://doi.org/10.1093/aje/kwae341).
+
+9.   Lowik AJ, Delgado-Ron JA, Khonina M, Salway T. Measuring gender modality: Comparing strategies and methods from the “Understanding Affirming Communities, Relationships, & Networks” youth survey. *Psychol Sex Orientat Gend Divers*. 2025. Advance online publication. doi: [10.1037/sgd0000817](https://doi.org/10.1037/sgd0000817)
+
+10.   Lowik AJ, Cameron JJ, Dame J, Ford J, Pulice-Farrow L, Salway T, van Anders S, Shannon K. Gender and Sex in Methods & Measurement - Research Equity Toolkit. Collaborative of Gender and Sexual Health Equity Research Education Resources ("CGSHE"), University of British Columbia. 2022. URL: https://gender-sex-toolkit.med.ubc.ca/
