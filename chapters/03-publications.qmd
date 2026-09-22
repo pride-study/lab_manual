@@ -14,6 +14,12 @@ For all papers or conference presentations using PRIDE data, it is expected that
 
 While not required, we encourage investigators using PRIDE data to include community partners as co-authors on manuscripts when appropriate. Our PRIDEnet community partners provide valuable feedback throughout the research process and often make substantial contributions to study design, interpretation, and dissemination that merit authorship recognition.
 
+## Conferences {#sec-conferences}
+
+Any abstract submissions to conferences that use data from The PRIDE Study are required to be reviewed by The PRIDE Study prior to submission. The PRIDE Study requests at least 1 week in order to provide feedback. First authors of all abstracts should share their abstracts to all co-authors *via* email while copying The PRIDE Study [research team](mailto:review@pridestudy.org).
+
+For trainees that are under the direct mentorship of one of The PRIDE Study co-directors, it is recommended that they reach out to their mentor with ample time in order to discuss funding options to attend the conference. 
+
 ## Publications
 
 Scientific writing is difficult! For anyone new to scientific writing (or those who have been writing for a long time), PRIDE recommends referring to reporting guidelines published as part of the [EQUATOR network](http://www.equator-network.org/) (Enhancing the QUAlity and Transparency Of health Research)—an international initiative that seeks to improve the reliability and value of published health research literature. Reporting guidelines promote clear reporting of methods and results to allow critical appraisal of the manuscript. The EQUATOR network has several reporting guidelines for different types of study design, and for many biomedical and health journals, these guidelines are sometimes asked to be submitted as supplemental files along with the main manuscript.
@@ -38,6 +44,15 @@ It is important to acknowledge the contributions of PRIDE participants in sharin
 > **Funding.** This study was partially funded by the Patient-Centered Outcomes Research Institute (PPRN-1501–26848 to MRL) and the National Institute on Drug Abuse of the National Institutes of Health (K24DA057874 to AF). The statements in this manuscript are solely the responsibility of the authors and do not necessarily represent the views of PCORI, its Board of Governors, or its Methodology Committee and the National Institutes of Health.
 >
 > **Conflicts of Interest Disclosures.** Dr. Obedin-Maliver has received consultation fees from Ibis Reproductive Health, Hims and Hers Health Inc., Folx Health Inc., Sage Therapeutics and Upstream Inc. on topics unrelated to this work. Dr. Lunn received consultation fees from Hims and Hers Health Inc., Folx Health Inc., Otsuka Pharmaceutical Development and Commercialization Inc., and the American Dental Association on topics unrelated to this work. Dr. Tran received consultation fees from the *All of Us* Research Program Resources Access Board. No other disclosures were reported.
+
+## Open Science
+
+### Preregistration
+
+Preregistration is the process of creating a permanent record of one's research and statistical analysis plan prior to examining the data. The plan is stored in a time-stamped, uneditable file in a secure online archive that can be shared with others (*e.g* reviewers) upon submission of a manuscript. In general, PRIDE does not have a strong stance against or for preregistration and we do not require investigators working with PRIDE data to preregister their observational epidemiologic protocols. The motivation behind preregistration is to avoid p-hacking your way to a signficant results by specifying which hypotheses and analyses are determined *a priori* and which analyses are done *post hoc*. While it is a worthwhile goal, especially in the context of randomized clinical trials, we believe there are other ways of assessing the robustness of one's results such clearly and honestly articulating the various forms of biases present in the analysis and conducting sensitivity analyses to assess the robustness of one's results. That said, if investigators working with The PRIDE Study are interested in preregistration, we recommend reviewing papers from Nosek *et al.* and Lash and Vandenbroucke for variety of thoughts on preregistration.<sup>[1](#sec-repo-resources)</sup>  Potential options for repsitories that can be used for preregistration include: 
+
+-   [Open Science Framework](https://osf.io/)
+-   [ClinicalTrials.gov](https://clinicaltrials.gov/)
 
 ### Code and Data Sharing {#sec-code-data-share}
 
@@ -70,7 +85,7 @@ iris_syn <- worcs::synthetic(iris)
 
 Preprints are versions of scholarly manuscripts that are shared publicly through a preprint server such as bioRxiv, medRxiv, or PsyArXiv before they have undergone formal peer review and been published in a journal. While not required, preprints are one possible option for investigators who are interested in getting their work out sooner. It is important to note that preprints are not peer-reviewed and are potentially subjected to change after going through the journal review process. The general advantage for posting on preprint servers is that these manuscripts will be free for public access, which may be relevant if study findings have time-sensitive policy-related implications, and can be listed on resumes, biosketches, or curriculum vitae for grant applications, job opportunities, or promotion. Commonly used preprint serves include arXiv, medRxiv, PysArXiv, OSF, and Zenodo. Stanford faculty, students, and affiliates may also post preprints in the [Stanford Digital Repository](https://sdr.library.stanford.edu/).
 
-### Research Dissemination Back to LGBTQIA+ Communities
+## Research Dissemination Back to LGBTQIA+ Communities
 
 In order to “close the loop” and return value to participants who have contributed their data to The PRIDE Study, we require that all investigators who publish their studies using The PRIDE Study data to complete a community-friendly summary of research findings as part of our [dissemination guidelines](https://www.dropbox.com/scl/fi/qknjgc18fqgp7vgxc8q7z/The-PRIDE-Study-Research-Dissemination-Plan_2019-12-06.pdf?rlkey=p4nepjqxn7eu5xoup7x4e2hkc&e=1&dl=0). This requirement reflects our commitment to community-engaged research and ensures that LGBTQIA+ participants directly benefit from their involvement in the study. The community-friendly summary should be written in accessible, non-technical language that avoids jargon and clearly explains what the research found, why it matters, and how it might impact LGBTQIA+ health and well-being. This process is as follows:
 
@@ -79,14 +94,12 @@ In order to “close the loop” and return value to participants who have contr
 3.  **Collaborative Review and Editing**. Our team will review the summary and provide edits as needed to ensure that the language is accessible to participants.
 4.  **Dissemination.** Once the paper is published, the community-friendly summary will be shared with PRIDE Study participants *via* email and posted on our website. Examples of previous summaries can be found on our [website](https://pridestudy.org/research).
 
-## Conferences {#sec-conferences}
-
-Any abstract submissions to conferences that use data from The PRIDE Study are required to be reviewed by The PRIDE Study prior to submission. The PRIDE Study requests at least 1 week in order to provide feedback. First authors of all abstracts should share their abstracts to all co-authors *via* email while copying The PRIDE Study [research team](mailto:review@pridestudy.org).
-
-For trainees that are under the direct mentorship of one of The PRIDE Study co-directors, it is recommended that they reach out to their mentor with ample time in order to discuss funding options to attend the conference. 
-
 ## Resources {#sec-repo-resources}
 
--   Van Lissa CJ, Brandmaier AM, Brinkman L, et al. WORCS: A workflow for open reproducible code in science. *Data Science*. 2021;4(1):29-49. doi:[10.3233/DS-210031](https://doi.org/10.3233/DS-210031)
+-   Lash TL, Vandenbroucke JP. Should preregistration of epidemiologic study protocols become compulsory? Reflections and a counterproposal. Epidemiology. 2012 Mar;23(2):184-8. doi: [10.1097/EDE.0b013e318245c05b](https://doi.org/10.1097/EDE.0b013e318245c05b).
 
--   Nowok, B., Raab, G.M and Dibben, C. synthpop: Bespoke creation of synthetic data in R. *Journal of Statistical Software*. 2016:74(11):1-26. [doi:10.18637/jss.v074.i11](https://doi.org/10.18637/jss.v074.i11) .
+-   Nosek BA, Ebersole CR, DeHaven AC, Mellor DT. The preregistration revolution. Proc Natl Acad Sci U S A. 2018 Mar 13;115(11):2600-2606. doi: [10.1073/pnas.1708274114](https://doi.org/10.1073/pnas.1708274114).
+
+-   Van Lissa CJ, Brandmaier AM, Brinkman L, et al. WORCS: A workflow for open reproducible code in science. *Data Science*. 2021;4(1):29-49. doi:[10.3233/DS-210031](https://doi.org/10.3233/DS-210031).
+
+-   Nowok, B., Raab, G.M and Dibben, C. synthpop: Bespoke creation of synthetic data in R. *Journal of Statistical Software*. 2016:74(11):1-26. [doi:10.18637/jss.v074.i11](https://doi.org/10.18637/jss.v074.i11).
